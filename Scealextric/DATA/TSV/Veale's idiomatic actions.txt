@@ -1,0 +1,821 @@
+Action	Count Usages	Normative Form	Idiomatic Forms
+are_trusted_by	92	B trusted A	B trusted A implicitly, B trusted A without reservation, B saw no reason to distrust A, B had no doubts about A, B implicitly trusted A, B had total confidence in A, B trusted A totally, A enjoyed B's trust, B was very open with A
+are_disrespected_by	75	B disrespected A	B openly disrespected A, B sneered openly at A, B was always snooty to A, B was openly contemptuous of A, B thought very little of A, B never said anything nice about A, B had only bad things to say about A, B muttered darkly behind A's back, B did not pretend to like A, B was scornful of A, B spat in A's eye, B spat in A's face, B could say nothing good about A, B did not treat A with respect, B lacked any respect for A, B made A feel very small indeed
+condescend_to	68	A condescended to B	A snootily condescended to B, A looked down its nose at B, A considered B to be an inferior breed, A spoke to B with an air of superiority, A talked to B as one talks to an underling, A adopted a haughty attitude to B, A looked down on B from a height A considered B to be its social inferior, A did not consider B its equal, A treated B as a fool, A considered B a lesser being, A pissed on B from a height, A rolled its eyes whenever B spoke, A treated B like a lowly servant, A openly belittled B, A demeaned and belittled B
+are_deceived_by	61	B deceived A	B completely deceived A, B lied convincingly to A, B masterfully deceived A, A was totally fooled by B, A was completely taken in by B, B pulled the wool over A's eyes, B kept A totally in the dark, A did not detect B's deception, B made a fool of A, B could make A believe anything, A bought B's lies hook line and sinker, B ensnared A in an elaborate deception, B perpetrated an eleborate con on A, A was totally conned by B, A was swindled by B
+disappoint	59	A disappointed B	A thoroughly disappointed B, B was very disappointed in A, B considered A to be a big disappointment, B thought "What a loser when looking at A, "Could you be a bigger disappointment?" asked B sarcastically, "I'm very disappointed" said B to A, "I've let you down" apologized A to B, "You've let me down" said B plaintively, B considered A a loser, B treated A as a failure, A's flaws became all too apparent to B, B wrote A off as a loser
+fall_in_love_with	56	A fell in love with B	A became utterly smitten with B, A only had eyes for B, A fell head over heels in love with B, A became utterly besotted with B, A's thoughts of B were thoughts of love, A was totally infatuated with B, Wedding bells tinkled in A's brain when looking at B, A heard wedding bells when looking at B, B was a vision of loveliness to A, birds sang whenever A thought of B, "I'm in love" thought A, A developed a crush on B, love stirred in A's heart for B, A fell head over heels for B, A became consumed with love for B, A went weak at the knees for B, A's heart pined for B, A became consumed by B, A's pulse raced at the thought of B
+are_feared_by	55	B feared A	B was frightened of A, A filled B with fear, B quaked with fear in A's presence, B shook with fear at thoughts of A, B was scared of A, B trembled with fear around A, A scared the life out of B,B was absolutely terrified of A, B quietly nurtured a fear of A, A scared the piss out of B
+are_impressed_by	55	B impressed A	B impressed the hell out of A, B made a tremendous impression on A, A thought very highly of B, B cut an impressive figure to A, B seemed a magnificent figure to A, B made quite the impression on A, B seemed a towering figure to A, 
+are_pushed_too_far_by	53	B pushed A too far	B pushed A too far, B demanded too much of A, B's expectations of A were much too high, B placed unrealistic expectations on A, B pushed A over the edge, B made excessive demands of A, B pushed A to the limits and beyond, B demanded far too much of A, B treated A as a slave to be whipped, "I can't take this any longer" said A to B
+steal_from	51	A stole from B	A pinched B's best ideas, A picked B's pockets, A cleaned out B's bank accounts, A ripped off B for everything of value, A pocketed B's money, A stole money from B, A hacked into B's bank account, A used B's credit card without permission, A wrote cheques on B's account, A stole B's inheritance, A took everything that B had, A ripped off B's best ideas
+are_bored_by	50	B bored A	B bored A to death, A found B to be incredibly boring, A could not think of anyone more boring than B, B's boring voice sent A to sleep, A saw B as a total bore, A was bored almost to death by B, "What a bore!" thought A of B, A saw nothing of interest in B, A saw B as dull and boring, A was utterly bored by B, A was bored out of its skull by B
+are_worshipped_by	50	B worshipped A	B worshipped the ground beneath A, B worshipped A as a god, B adored A as a god, B saw A as nothing less than a god, B placed A on a very high pedestal, B practically worshipped A, A seemed utterly divine to B, B bowed down before A's awesomeness, B looked up to A as a god, B kissed the very ground beneath A
+fail_to_deliver_for	46	A failed to deliver for B	A simply failed to deliver for B, A let down B big time, A could not reach the bar set by B, A could not achieve B's lofty goals
+are_exploited_by	46	B exploited A	B totally took advantage of A, B treated A as a pliable pawn, B pulled A's strings, B got A to do some bad stuff, B used A to achieve some dubious goals, A was totally exploited by B, B pimped out A to its friends, A was urged to commit criminal acts for B, A was just a pawn in B's schemes 
+kill	45	A killed B	A stabbed B, A mauled B, A put poison in B's cup, A put poison in B's food, A savaged B, A put B in the hospital, A gave B a terrible beating, A punched and kicked B, A gave B an almighty wallop, A kicked B into the next day, A stomped all over B, A gave B a good kicking, A viciously assaulted B, A launched an assassination attempt on B, A wanted to kill B, A choked the air out of B, A flayed B alive, A knocked the stuffing out of B
+are_ignored_by	43	B ignored A	B acted like A didn't exist, B turned its back on A, B pretended A didn't exist, B treated A as a non entity, B coldly ignored A, B treated A as persona non grata, B would not give the time of day to A, A no longer existed for B, A was persona non grata to B, B gave A the cold shoulder, B turned its back on A
+spread_lies_about	43	A spread lies about B	A spread terrible stories about B, A started vile rumours about B, A whispered rumours behind B's back, A made slanderous remarks about B, A shared cruel jibes about B, A made crude jibes about B, A spread slander about B
+beg_forgiveness_from	39	A begged forgiveness from B	A begged B's forgiveness, A grovelled at B's feet, A pleaded with B for forgiveness, A apologized effusively to B, "Forgive Me" begged A of B
+underestimate	39	A underestimated B	A crucially underestimated B, B was smarter than A imagined, B was not as dumb as A imagined, A should not have treated B as a fool, B was not the fool that A imagined
+cede_power_to	39	A ceded power to B	A ceded all its power to B, A relinquished all its power to B, "Command me as you wish" said A to B, "Your wish is my command" said A to B, A relinquished all its power to B, B's domination of A was total, A prostrated itself before B
+are_underpaid_by	39	B underpaid A	B shamelessly underpaid A, B did not adequately reward A, B stingily underpaid A, B did not properly reward A's efforts, B did not give A its just reward
+are_disgusted_by	38	B disgusted A	B filled A with disgust, B thoroughly sickened A, A was thoroughly disgusted with B, A was sickened by the very thought of B, B filled A with revulsion, B disgusted and repulsed A, A was thoroughly repulsed by B, A was disgusted at the very thought of B, "You're disgusting" thought A about B, "You disgust me" said A to B, "How monstrous" thought A of B, A considered B a disgusting monstrosity, B turned A's stomach, B made A sick to its stomach, B made A's skin crawl
+are_betrayed_by	38	B betrayed A	B stabbed A in the back, B became a Judas to A, B sold out A to its enemies, B betrayed A utterly, B's betrayal came as a surprise to A, B treacherously switched sides from A, B betrayed A's trust, B proved to be a false friend to A
+are_lectured_by	37	B lectured A	B lectured A at length, B treated A to a lecture, B gave A a very long lecture, B lectured A for hours, B delivered a long lecture to A, B gave A a paternalistic talk, B authoritatively lectured A
+seek_forgiveness_from	37	A sought forgiveness from B	A sought forgiveness from B, "Please forgive me" begged A, "Please forgive me" pleaded A, A grovelled for forgiveness from B, "I repent! I repent" muttered A, "Mea culpa! Mea maxima culpa" grovelled A, "Can you ever forgive me?" asked A
+are_humiliated_by	37	B humiliated A	B delivered a humiliating lecture to A, B read A the riot act, B did not spare A's feelings in a scathing rant, B launched a humiliating tirade at A, B publically humiliated A, B reduced A's reputation to rubble, B verbally dismantled A brick by brick, B publically chastised A as one would chastise a child, B excoriated A with a humiliating lecture, B made A feel very small indeed, B gave A a very public dressing down, B subjected A to public ridicule
+are_respected_by	37	B respected A	B thoroughly respected A, B had nothing but respect for A, B thought very highly of A, B was very respectful of A, B had the utmost respect for A, B felt a kinship to A, B respected and admired A
+are_cheated_by	37	B cheated A	B scurrilously cheated A, B cheated A out of its due, B denied fair treatment to A, B conned A out of its due, B refused to honor its commitments to A
+are_sued_by	37	B sued A	B brought a lawsuit against A, B took A to court, B hired a lawyer and sued A, B brought suit against A in open court, B sought redress against A through the courts, B brought a legal case against A
+turn_against	35	A turned against B	A turned against B, A's feelings for B soured, A no longer considered B an ally, A and B's relationship soured, A and B fell out, A no longer respected or trusted B, A harbored bad feelings for B
+manipulate	35	A manipulated B	A manipulated B as a puppeteer manipulates a puppet, A pulled all of B's strings, A knew how to press B's buttons, A played B like a master pianist, A knew exactly how to manipulate B, A could manipulate B into doing anything
+are_bought_off_by	34	B bought off A	B paid A to do what it asked, B gave A a big pay off, B bribed A to play along, B earned A's loyalty with money, B paid A to look the other way
+are_upstaged_by	34	B upstaged A	B stole A's thunder, B took the spotlight away from A, B pushed A out of the limelight, A was thoroughly upstaged by B, B overshadowed A in every way
+testify_against	33	A testified against B	A testified against B in open court, A filed a statement about B with the authorities, A filed an official report against B, A gave a statement about B to the police
+are_unimpressed_by	32	B unimpressed A	B failed to impress A, A was thoroughly unimpressed with B, A saw B as a hopeless case, B could do little to impress A, B tried but failed to impress A, B made little or no impression on B
+are_moved_by	31	B moved A	B's situation moved A to tears, A's heart softened toward B, B's plight melted A's heart, B's plight pulled on A's heartstrings, B's plight really moved A
+are_denounced_by	30	B denounced A	B publically denounced A, B launched a public denunciation of A, B launched a public tirade against A, B's denunciation of A was scathing, B disavowed any feeling for A, B denounced A to the world, B denounced A to anyone who would listen, B burned A's reputation to the ground
+lead_astray	30	A led B astray	A led B astray, A led B down a dark path, A was a very bad influence on B, A led B off the path of righteousness, A taught B to disrespect the rules, A taught B to flaut the rules, A lured B over to the dark side
+are_seduced_by	30	B seduced A	B seduced and enthralled A, B lured A into the bedroom, B flashed its bedroom eyes at A, B's seductive wiles proved too strong for A, B shamelessly seduced A, B charmed the pants of A
+are_insulted_by	29	B insulted A	B hurled insults at A, B cruelly made fun of A, B ridiculed and insulted A, B's hurtful response stung A, B made degrading remarks about A, B made demeaning remarks about A, B verbally assaulted A, B's insults struck A like stones, B's insults struck A like poisoned darts, B's insults stung like a wasp's stinger, B's insults stung like a scorpion's tail
+are_blackmailed_by	28	B blackmailed A	B used blackmail to manipulate A, B used inside information to blackmail A, B threatened to air A's dirty laundry, B stooped to blackmail against A, B threatened to expose A's darkest secrets
+indoctrinate	27	A indoctrinated B	A filled B's head with doctrinaire ideas, A filled B's head with rigid dogma, A programmed B to think dogmatically, A indoctrinated B with the approved dogma, A worked to curtail B's freedom of thought, A steeped B in dogma and doctrine, A instilled B with a dogmatic mindset, A turned B into a slave of doctrine
+are_beaten_by	27	B beat A	B stomped all over A, B beat A convincingly, B launched a brutal beat down on A, B brutally beat A, B brutally battered A
+are_corrupted_by	27	B corrupted A	B corrupted A's soul, B lured A over to the dark side, B was a corrupting influence on A, B had a corrosive influence on A, B appealed to A's dark side, "Come over to the dark side" said B to A
+are_underappreciated_by	27	B underappreciated A	B failed to appreciate A, B did not see A's true value, B did not fully appreciate A, A's value went unappreciated by B
+stand_up_to	26	A stood up to B	A stood up to B, A had taken enough abuse from B, A called an end to B's abuse, A grew a backbone and stood up to B, A bared its teeth to B, A refused to take B's abuse any longer
+lie_to	26	A lied to B	A chose to lie to B, A fed B a string of lies, A witheld the truth from B, A told B a pack of lies, A hid the truth from B
+show_loyalty_to	26	A showed loyalty to B	A showed true loyalty to B, A swore loyalty to B, A seemed utterly loyal to B, A was a loyal friend to B, A promised to be B's loyal servant, A pledged allegiance to B
+impress	26	A impressed B	A's many qualities impressed B, A greatly impressed B, A made quite an impression on B, A made a big impression on B
+are_attacked_by	25	B attacked A	B attacked A with all its strength, B launched a brutal attack on A, B launched a surprise attack on A, B pounced on A, B threw itself violently at A, B's sticks and stones broke A's bones
+disagree_with	25	A disagreed with B	A disagreed openly with B, A expressed strong disagreement with B, A dissented from B's view, A could not agree with B
+sleep_with	25	A slept with B	A slept with B, A went to bed with B, A shared its bed with B, A took B to its bed, A and B spent the night together
+attack	25	A attacked B	A attacked B with all its strength, A launched a massive attack on B, A pounced on B, A threw itself into an attack on B, A launched a full-frontal attack on B
+are_rebuffed_by	25	B rebuffed A	B sent A packing, "I want nothing to do with you" said B to A, "Piss off" said B to A, B turned its back on A, B wanted nothing to do with A, B coldly dismissed A with a sneer, B coldly showed A the door
+identify_with	25	A identified with B	A came to identify with B's situation, A put itself in B's shoes, A developed a sense of kinship with B, A forged a bond with B
+are_pursued_by	25	B pursued A	B chased after A, B pursued A relentlessly, B went in pursuit of A
+are_obeyed_by	25	B obeyed A	B obeyed A's orders, B became an obedient servant of A, B followed A's orders, B pledged obedience to A, B followed A's orders to the letter
+are_inspired_by	24	B inspired A	B became a source of inspiration for A, B became a shining inspiration for A, B became a role model for A, B filled A with inspiration, B encouraged and inspired A
+are_threatened_by	24	B threatened A	B threatened A with violence, B made threats against A, B threatened to kill A, B threatened violence against A, B threatened to hurt A, B intimidated A with threats of violence
+inspire	24	A inspired B	A became a source of inspiration for B, A became a shining inspiration for B, A became a role model for B, A filled B with inspiration, A encouraged and inspired B, A seemed to speak to B's soul
+are_manipulated_by	24	B manipulated A	B pulled A's strings, B knew how to push A's buttons, B knew just how to manipulate A, B had its hooks deep into A, B turned A into its unwitting puppet, A was a marionette and B was its master, B manipulated A into doing its dirty work
+campaign_against	24	A campaigned against B	A campaigned vigorously against B, A went on the offensive against B, A became B's nemesis
+are_shocked_by	23	B shocked A	B's behaviour shocked A, B's behaviour appalled A, A was dismayed by B's behaviour, B's shocking behavior appalled A
+insult	23	A insulted B	A hurled insults at B, A cruelly made fun of B, A ridiculed and insulted B, A's hurtful response stung B, A made degrading remarks about B, A made demeaning remarks about B, A verbally assaulted B, A mocked and insulted B
+spy_on	23	A spied on B	A furtively spied on B, A kept B under close observation, A closely monitored B's comings and goings
+are_disillusioned_by	23	B disillusioned A	B robbed A of its illusions, B disabused A of its illusions, B showed A its true colours, B showed A its less impressive side
+are_mocked_by	23	B mocked A	B cruelly mocked A, B subjected A to cruel mockery, B subjected A to a barrage of sarcasm, B's sarcasm cut A like a knife
+trust	22	A trusted B	A trusted B implicitly, A had complete confidence in B, A placed its trust in B
+are_rewarded_by	22	B rewarded A	B rewarded A amply, B gave A its just reward, B was generous in its reward to A, B did not skimp when rewarding A, B gave A a token of its appreciation
+are_abandoned_by	21	B abandoned A	B abandoned A there and then, "I'm outa here" shouted B to A, B picked up and left A behind, "I've had enough of you" said B, B ran off and left A behind, B packed a bag and left A, B packed up its things and left A behind
+lick_up_to	21	A licked up to B	A licked up to B, A brown-nosed for favor from B, A flattered and cajoled B, A acted like a brown-nose around B, A massaged B's ego
+sue	21	A sued B	A decided to sue B, A brought a law-suit against B, A took B to court, A hired a lawyer and took B to court, A hired a lawyer to sue B, A fawned over and sucked up to B
+are_flattered_by	21	B flattered A	B flattered and fawned over A, B used flattery to win over A, B subjected A to a barrage of compliments
+blackmail	21	A blackmailed B	A threatened to spill B's secrets, A used blackmail to manipulate B, A used B's darkest secrets to blackmail B
+deceive	20	A deceived B	A deceived and misled B, A pulled the wool of B's eyes, A used deception to influence B, A lied and lied to B, A's lies found a willing listener in B, A's lies made a gullible fool out of B
+kiss_up_to	20	A kissed up to B	A kissed up to B, A massaged B's ego, A acted like a brown-nose around B, A was a real kiss-ass to B
+lay_a_trap_for	20	A laid a trap for B	A laid a cunning trap for B, A prepared a trap for B to fall into, A decided to set a trap for B
+profit_from	20	A profited from B	A made a lot of money from B, A treated B as a cash-cow, A milked B as a cash-cow, A profited from its association with B, A monetized its relationship to B, A grew a profitable relationship with B
+are_dumped_by	20	B dumped A	B unceremoniously dumped A, B did not let A down gently, "We're through" said B to A, "We're no longer an item" said B to A, B lowered the boom on A, "So long loser" said B to A
+are_resisted_by	20	B resisted A	B resisted and opposed A, B put up a defiant resistance to A, B was defiant in resisting A, B showed only defiance to A, A refused to buckle under to A
+humiliate	20	A humiliated B	A delivered a humiliating lecture to B, A read B the riot act, A did not spare B's feelings in a scathing rant, A launched a humiliating tirade at B, A publically humiliated B, A reduced B's reputation to rubble, A verbally dismantled B brick by brick, A publically chastised B as one would chastise a child, A excoriated B with a humiliating lecture, A made B feel very small indeed, A gave B a very public dressing down, A subjected B to public ridicule
+are_arrested_for_killing	19	A was arrested for killing B	A was arrested for brutally attacking B, the police arrested A for its brutal attack on B, A was arrested for its vicious assault on B
+are_despised_by	19	B despised A	B hated and despised A, B truly despised A, B truly abhorred A, B loathed everything about A, B hated everything about A, B abhorred everything about A, B saw no redeeming qualities in A, B saw A as loathsome and despicable, "You despicable monster" said B to A, "How despicable you are" said B to A, "Oh despicable you" said B to A
+learn_from	19	A learned from B	A learned a valuable lesson from B, A learned valuable lessons from B, A considered B to be a good teacher, A was a good pupil for B, A became a dedicated student of B
+marry	19	A married B	A tied the knot with B, A walked down the aisle with B, A and B decided to get married, A and B got hitched
+are_bitten_by	19	B bit A	B took a bite out of A, B sunk its teeth into A, B bit a chunk out of A, B took a great big chunk out of A
+are_favored_by	19	B favored A	B showered A with favor, B openly showed favor to A, B openly favored A, A basked in B's good affections, B showed favoritism toward A
+settle_with	19	A settled with B	A reached a settlement with B, A buried the hatchet with B, A offered financial restitution to B, A and B reached a settlement deal
+are_misrepresented_by	19	B misrepresented A	B misrepresented A's intentions, B misrepresented A's beliefs, B deliberately misrepresented A, B twisted A's words to suit itself, B painted a very misleading picture of A, B twisted A's words to suit its own ends
+argue_with	18	A argued with B	A had a heated argument with B, A and B had a massive argument, A and B were at loggerheads, A argued openly with B, A and B engaged in heated arguments
+criticize	18	A criticized B	A criticized B in public, A offered a savage critique of B, A stuck the knife of public criticism into B, A threw critical brickbats at B, A hurled a volley of criticism at B, A subjected B to a barrage of criticism
+dump	18	A dumped B	A unceremoniously dumped B, A did not let B down gently, "We're through" said A to B, "We're no longer an item" said A to B, A lowered the boom on B, "So long loser" said A to B, "Its not you but me" said A disingeniously, A asked B to pack its bags and leave
+are_haunted_by	18	B haunted A	B came back to haunt A, memories of B came back to haunt A, the ghost of B came back to haunt A, B's ghost would not leave A alone, the ghost of B offered A no respite
+surrender_to	18	A surrendered to B	A waved the white flag to B, A threw in the towel to B, A called for a truce from B, "I surrender! You win" said A to B, "You win! I surrender" said A to B, A offered B its surrender
+are_spurned_by	18	B spurned A	B spurned A's advances, B spurned A's entreaties, B turned a cold eye to A's entreaties, B was scornful of A's entreaties
+run_away_from	18	A ran away from B	A scurried away from B, A ran off to get away from B, A ran away from B as fast as it could, A put distance between itself and B
+are_arrested_for_hurting	17	A was arrested for hurting B	A was arrested for hurting B, the police arrested A for hurting B, A was arrested for its assault on B, A found itself alienated from B's affections
+alienate	17	A alienated B	A shattered its relationship with B, A pushed B away, A lost B's affections, A alienated B's affections
+threaten	17	A threatened B	A threatened B with physical violence, A made threats against B, A threatened to kill B, A threatened violence against B, A threatened to hurt B, A intimidated B with threats of violence
+fail_to_impress	17	A failed to impress B	A failed to impress B, none of A's efforts impressed B, A could do nothing to impress B, try as it might A could not impress B, A simply could not impress B, none of A's efforts found favor with B
+are_fired_by	16	B fired A	"You're fired" shouted B at A, B gave A the sack, B demanded A's resignation, "Get out! You're fired" said B, B asked A to clear out its desk and leave, B demanded A's resignation
+listen_to	16	A listened to B	A listened to what B had to say, A listened carefully to what B had to say, A listened attentively to B
+disgust	16	A disgusted B	A filled B with disgust, A thoroughly sickened B, B was thoroughly disgusted with A, B was sickened by the very thought of A, A filled B with revulsion, A disgusted and repulsed B, B was thoroughly repulsed by A, B was disgusted at the very thought of A, "You're disgusting" thought B about A, "You disgust me" said B to A, "How monstrous" thought B of A, B considered A a disgusting monstrosity, A turned B's stomach, A made B sick to its stomach, A made B's skin crawl
+take_advantage_of	16	A took advantage of B	A unscupulously took advantage of B, A took full advantage of B
+bow_down_to	16	A bowed down to B	A bowed down to B and grovelled, A bowed down and kissed the hem of B's robe, A bowed down and swore fealty to B
+misrepresent	16	A misrepresented B	A misrepresented B's intentions, A misrepresented B's beliefs, A deliberately misrepresented B, A twisted B's words to suit itself, A painted a very misleading picture of B, A twisted B's words to suit its own ends
+lose_faith_in	16	A lost faith in B	A lost all faith in B, A no longer had any faith in B, A's faith in B completely evaporated
+curry_favor_with	16	A curried favor with B	A assiduously curried favor with B
+work_for	16	A worked for B	A went to work for B, A started a new job for B, A went to work in B's employ
+resent	15	A resented B	A grew to resent B, A harbored bitter thoughts about B, A grew resentful about B, A nurtured resentful thoughts about B
+are_underestimated_by	15	B underestimated A	B crucially underestimated A, A was smarter than B imagined, A was not quite as dumb as B imagined, B should not have treated A as a fool, A was not the fool that B imagined
+look_up_to	15	A looked up to B	A looked up to B as a role model, A looked up to B as an idol, A put B on a very high pedestal, A looked up to B as an inspiration, A thought very highly indeed of B
+are_dismissed_by	15	B dismissed A	B told A to just go away, B told A to get out and not come back, B coldly dismissed A and turned away
+pay_off	15	A paid off B	A paid off B to do its bidding, A paid B to do its bidding, A paid B to be a willing servant, A bought B's loyalty with cash
+worship	15	A worshipped B	A worshipped the ground beneath B, A worshipped B as a god, A adored B as a god, A saw B as nothing less than a god, A placed B on a very high pedestal, A practically worshipped B, B seemed utterly divine to A, A bowed down before B's awesomeness, A looked up to B as a god, A kissed the ground beneath B
+are_tricked_by	15	B tricked A	B used trickery to deceive A, B's trickery found a willing dupe in A, B's trickery went unnoticed by A
+escape_from	15	A escaped from B	A escaped from B's clutches, A broke free of B's clutches, A escaped from under B's nose
+are_stalked_by	14	B stalked A	B furtively followed A everywhere, B stalked and harassed A
+are_taunted_by	14	B taunted A	B hurled cruel taunts at A, B taunted A with cruel jibes
+betray	14	A betrayed B	A stabbed B in the back, A became a Judas to B, A sold out B to its enemies, A betrayed B utterly, A's betrayal came as a surprise to B, A treacherously switched sides from B, A betrayed B's trust, A proved to be a false friend to B, A stuck a traitor's dagger between B's ribs
+are_promoted_by	14	B promoted A	B gave A a big promotion, B promoted A into an important position, B gave A a big career boost, B helped A move up the career ladder, B gave A's career a big boost
+are_killed_by	14	B killed A	B stabbed A, B mauled A, B put poison in A's cup, B put poison in A's food, B savaged A, B put A in the hospital, B gave A a terrible beating, B punched and kicked A, B gave A an almighty wallop, B kicked A into the next day, B stomped all over A, B gave A a good kicking, B viciously assaulted A, B launched an assassination attempt on A, B wanted to kill A, B choked the air out of A, A flayed B alive, B knocked the stuffing out of A
+rise_against	14	A rose up against B	A rose up against B, A led an uprising against B, A stirred unrest against B, A fomented rebellion against B
+pander_to	14	A pandered to B	A pandered to B's whims, A pandered to B's every need, A degraded itself to indulge B's whims
+silence	13	A silenced B	A had B silenced, A shut B up, A took out a gagging order against B, A stuffed a smelly sock in B's mouth
+promote	13	A promoted B	A gave B a big promotion, A promoted B into an important position, A gave B a big career boost, A promoted B's career, A helped B move up the career ladder, A gave B's career a big boost
+are_pitied_by	13	B pitied A	B treated A as the most hideous wretch, B felt only pity for A now
+undermine	13	A undermined B	A undermined B's position, A spread undermining rumors about B, A went behind B's back and undermined its position, A was an undermining influence on B, A worked hard to undermine B's position 
+hate	13	A hated B	A hated everything about B, A truly despised B, A nurtured a deep hatred of B, A's hatred for B knew no bounds, A's hatred for B was profound
+abuse	13	A abused B	A abused and degraded B, A was mean and abusive to B, A physically and mentally abused B, A subjected B to terrible abuse
+pine_for	13	A pined for B	A pined for B's smile, A longed for another chance with B, A longed to reconnect with B, A yearned to be with B again, A yearned for a kind word from B
+eject	13	A ejected B	A kicked B out into the cold, A grabbed B by the scruff of the neck and shouted "Get out", A showed B the door with an air of finality, A had enough and kicked B out
+sympathize_with	13	A sympathized with B	A came to sympathize with B, A developed sympathetic feelings for B, A was not unsympathetic to B
+are_concerned_about	13	A was concerned about B	A became concerned about B, A developed concerns about B, A grew concerned about B's situation
+cheat	12	A cheated B	A cheated B out of a lot of money, A conned a lot of money out of B, A ran a profitable con-job on B, A bilked B out of a lot of money
+are_brainwashed_by	12	B brainwashed A	B brainwashed A into believing a pack of lies, B subjected A to a brainwashing process, B "washed" A's brain clean of any independent thoughts, B reprogrammed A's brain with dogma, A brainwashed B to tow the official line
+exploit	12	A exploited B	A totally took advantage of B, A treated B as a pliable pawn, A pulled B's strings, A got B to do some bad stuff, A used B to achieve dubious goals, B was totally exploited by A, A pimped out B to its friends, B was urged to commit criminal acts for A, B was just a pawn in A's evil schemes 
+are_entertained_by	12	B entertained A	B entertained A with jokes and skits, B showed A a very good time, B put on an entertaining show for A
+flirt_with	12	A flirted with B	A flirted outrageously with B, A made flirtatious glances at B, A invited B for an intimate chat, A invited B for a romantic meal, A took B to a romantic restaurant, A took B for a candlelit dinner, A invited B for a nightcap
+disrespect	11	A disrespected B	A openly disrespected B, A sneered openly at B, A was always snooty to B, A was openly contemptuous of B, A thought very little of B, A never said anything nice about B, A had only bad things to say about B, A muttered darkly behind B's back, A did not pretend to like B, A was scornful of B, A spat in B's eye, A spat in B's face, A could say nothing good about B, A did not treat B with respect, A lacked any respect for B, A made B feel very small indeed
+are_indoctrinated_by	11	B indoctrinated A	B filled A's head with doctrinaire ideas, B filled A's head with rigid dogma, B programmed A to think dogmatically, B indoctrinated A with the approved dogma, B worked to curtail A's freedom of thought, B steeped A in dogma and doctrine, B instilled A with a dogmatic mindset, B turned A into a slave of doctrine
+praise	11	A praised B	A sang B's praises, A praised B to whoever would listen, A became effusive in its praise of B, A offered fulsome praise to B 
+are_distrusted_by	11	B distrusted A	B saw no reason to trust A, B was skeptical of A's motives, B kept a close eye on A, B felt the need to watch A closely
+are_toppled_by	11	B toppled A	B toppled A from its perch, B knocked A off its perch, B kicked A off its throne, B knocked A off its high horse
+stalk	11	A stalked B	A furtively followed B everywhere, A stalked and harassed B, A obsessed about B and followed it everywhere
+are_refused_payment_by	1	B refused to pay A	B refused to pay A its due, B refused to pay what it owed A, B left A hanging for what was owed it, B's dud cheque to A bounced at the bank
+refuse_to_pay	11	A refused to pay B	A refused to pay B its due, A refused to pay what it owed B, A left B hanging for what was owed it, A's dud cheque to B bounced at the bank
+are_abused_by	11	B abused A	B abused and degraded A, B was mean and abusive to A, B physically and mentally abused A, B subjected A to terrible abuse
+break_with	11	A broke with B	A broke away from B, A ended its association with B, A broke with B and went its own way, A and B went different ways, A severed all of its ties with B
+are_attracted_by	11	B attracted A	A felt an attraction to B, B seemed very attractive to A, B cut an attractive figure to A, B looked very attractive to B, B held an immense attraction for A
+release	11	A released B	A freed B from capitivity, A let B out of its cage, A let B off its chain, A freed B from its prison
+are_disappointed_by	11	B disappointed A	B thoroughly disappointed A, A was very disappointed in B, A considered B to be a big disappointment, A thought "What a loser when looking at B, "Could you be a bigger disappointment?" asked A sarcastically, "I'm very disappointed" said A to B, "I've let you down" apologized B to A, "You've let me down" said B plaintively, A considered B a loser, A treated B as a failure, B's flaws became all too apparent to A, A wrote B off as a loser
+fear	11	A feared B	A was frightened of B, B filled A with fear, A quaked with fear in B's presence, A shook with fear at thoughts of B, A was scared of B, A trembled with fear around B, B scared the life out of A,A was absolutely terrified of B, A quietly nurtured a deep fear of B, B scared the scat out of A
+obey	11	A obeyed B	A obeyed B's orders, A became an obedient servant of B, A followed B's orders, A pledged obedience to B, A followed B's orders to the letter
+are_defeated_by	11	B defeated A	B delivered a crushing defeat to A, B stomped A into the dust, B walked all over A, B convincingly defeated A, A was toast when B was finished, B made mincemeat out of A, B ground A into a fine dust, B decorated the walls with A's innards
+bribe	11	A bribed B	A bribed B to look the other way, A gave B a bribe under-the-table 
+hide_from	11	A hid from B	A found a place to hide from B, A found the perfect hiding place from B, A snuck away to hide from B, A decided to get the hell outa Dodge
+are_cursed_by	11	B cursed A	B cursed A and wished it harm, B prayed to the gods to strike down A, B hurled bitter curses at A, B prayed for foul things to befall A, B prayed for hell to open up and swallow A 
+subjugate	11	A subjugated B	A made B its bitch, A crushed B under its thumb, A kept B under its thumb, A kept B on a tight leash
+fight_against	11	A fought against B	A put up a tremendous fight against B, A was determined to put up a fight against B, A would not go down to B without a fight
+lose_control_over	11	A lost control over B	A lost its control over B, A's power over B ebbed away, A's power over B was no more, A could no longer call B's tune, A could no longer use B as a puppet
+are_embarrassed_by	11	A was embarrassed  by B	B's silly behavior was a source of embarrassment to A, B's silly behaviour left A with egg on its face
+believe_in	10	A believed in B	A really believed in B, A really believed in what B stood for, A bought into B's ideas, A became an eager consumer of B's ideas
+suck_up_to	10	A sucked up to B	A unashamedly sucked up to B, A showed no shame in sucking up to B, A was a real suck-up to B
+chastise	10	A chastised B	A scolded B like a child, A gave B a severe rap on the knuckles, 
+are_chastised_by	10	B chastised A	B scolded A like a child, B gave A a severe rap on the knuckles, 
+are_forgotten_by	10	B forgot A	B forgot all about A, B packed away all memories of A, B's memories of A slowly faded away, B's memories of A soon gathered dust, A was soon just a distant memory to B
+obtain_sympathy_from	10	A obtained sympathy from B	A wrung sympathy out of B, A got sympathetic looks from B
+punish	10	A punished B	A doled out punishment for B's transgressions, A's punishment for B suited the crime, A invented an apt punishment for B, A meted out an apt punishment to B
+break_free_of	10	A broke free of B	A managed to break free of B's control, A stepped out of B's oppressive shadow
+disfigure	10	A disfigured B	A rearranged B's face, A left its mark on B's face, B never looked the same when A was finished
+are_disfigured_by	10	B disfigured A	B rearranged A's face, B left its mark on A's face, A never looked the same when B was finished
+take_up_with	10	A took up with B	A formed a close bond with B, A and B became an "item", A and B became a "thing", A and B became a hot couple
+confide_in	9	A confided in B	A confided everything to B, A told every embarrassing secret to B, A opened up to B and shared everything
+are_driven_mad_by	9	B drove A mad	B really drove A mad, B drove A around the bloody bend, B drove A up the bloody wall, B drove A crazy
+flatter	9	A flattered B	A flattered and fawned over B, A used flattery to win B over, A subjected B to a barrage of compliments
+let_in	9	A let B in	A opened up and let B in
+interview	9	A interviewed B	A conducted a probing interview with B
+are_hardened_by	9	A hardened toward B	B's behaviour hardened A's heart, A's attitude hardened toward B, 
+are_incarcerated_by	9	B incarcerated A	B locked A up, B sent A to prison, B had A sent to prison
+upstage	9	A upstaged B	A stole B's thunder, A took the spotlight from B, A pushed B out of the limelight, B was thoroughly upstaged by A, A overshadowed B in every way
+appeal_to	9	A appealed to B	A made an emotional appeal to B, a made a heartful appeal to B
+support	9	A supported B	A gave B its full support, A pledged unflinching support for B, A offered B its full support, A was incredibly supportive of B
+serve	9	A served B	A was a loyal servant to B, A pledged to serve B in every way
+repay	9	A repaid B	A repaid B in full, A paid back everything it owed B
+are_copied_by	8	B copied A	B "borrowed" A's ideas, B plagiarized A's best work
+negotiate_with	8	A negotiated with B	A sat down to negotiate with B, A sat down to hammer out terms with B
+are_banished_by	8	B banished A	B banished A from the kingdom, "Get thee hence and never return" said B to A
+are_intrigued_by	8	B intrigued A	B appealed to A's sense of wonder, B was a source of constant fascination to A, B fascinated and intrigued A
+are_heckled_by	8	B heckled A	B heckled A with cruel jibes, B booed and heckled A, B's heckles struck A like stones, B's heckles struck A like poisoned darts, B's heckles stung A like a wasp's stinger, B's heckles stung A like a scorpion's tail
+fire	8	A fired B	"You're fired" shouted A at B, A gave B the sack, A demanded B's resignation, "Get out! You're fired" said A, A asked B to clear out its desk and leave
+are_recalled_by	8	B recalled A	"Get back here right now" said B to A
+seek_advice_from	8	A sought advice from B	A sought personal advice from B, A looked to B for personal advice
+overwork	8	A overworked B	A gave B far too much work to do, A made B work day and night, A imposed an impossible workload on B
+hire	8	A hired B	A gave B a job
+are_ruled_by	8	B ruled A	B dominated A's life as a king dominates a pawn, B set the rules and A obeyed them, it was for B to set the rules and A to obey them
+buy_off	8	A bought off B	B was bought off and lived in A's pocket and followed A's tune, A bought off B to dance to its tune, A's money made a willing pawn of B
+observe	8	A observed B	A kept B under close observation, A closely observed all aspects of B's life
+labor_for	8	A labored for B	A labored long and hard for B, A knuckled down and worked hard for B
+are_deflowered_by	8	B deflowered A	B became A's very first lover, 
+are_forgiven_by	8	B forgave A	B forgave all of A's transgressions
+are_eluded_by	8	B eluded A	B eluded A's attempts at capture
+denounce	8	A denounced B	A publically denounced B, A launched a public denunciation of B, A launched a public tirade against B, A's denunciation of B was scathing, A disavowed any feeling for B, A denounced B to the world, A denounced B to anyone who would listen, A burned B's reputation to the ground
+appoint	8	A appointed B	A appointed B to high office, A gave B a plum job, A secured a plum appointment for B
+imitate	8	A imitated B	A imitated B's style and adopted it as its own
+track_down	7	A tracked B down	A followed the crumbs and tracked B down
+are_interviewed_by	7	B interviewed A	B conducted a probing interview with A
+welcome	7	A welcomed B	A welcomed B as a gracious host should
+are_molded_by	7	B molded A	B molded A in its own image
+mock	7	A mocked B	A cruelly mocked B, A subjected B to cruel mockery, A subjected B to a barrage of sarcasm, A's sarcasm cut B like a knife
+work_with	7	A worked with B	A worked alongside B
+are_enslaved_by	7	B enslaved A	B turned A into an indentured slave, B treated A like a personal slave,
+heckle	7	A heckled B	A heckled B with cruel jibes, A booed and heckled B, A's heckles struck B like stones, A's heckles struck B like poisoned darts, A's heckles stung B like a wasp's stinger, A's heckles stung B like a scorpion's tail
+confer_with	7	A conferred with B	A conferred with B to discuss their options
+grow_suspicious_of	7	A grew suspicious of B	A grew ever more suspicious of B, A's suspicions about B grew in scale
+sacrifice_to	7	A sacrificed to B	A made sacrifices in honor of B, A made sacrifices to B to obtain its favor
+take_aim_at	7	A took aim at B	A lined up B in its crosshairs, A took careful aim at B
+elude	7	A eluded B	A eluded B's efforts at capture
+are_unimpressed_with	7	A was unimpressed with B	A was unimpressed with B, nothing that B did was good enough for A, A was not impressed with anything that B did
+kill_for	7	A killed for B	A became a willing killer for B, A carried out assassinations for B, A's loyalty extended to killing B's enemies
+cheat_on	7	A cheated on B	A fooled around and cheated on B, A had an affair with B's best friend, A was unfaithful to B and had many affairs, A was serially unfaithful to B
+are_divorced_by	7	B divorced A	B filed for divorce against A, B asked A for a divorce
+divorce	7	A divorced B	A filed for divorce against B, A asked B for a divorce
+summon	7	A summoned B	A summoned B to a face-to-face meeting
+die_for	7	A died for B	A jumped in front of a bullet meant for B, A jumped on a grenade to save B, A caught a bullet to save B, A gave its life to save B
+coach	7	A coached B	A became B's coach, A agreed to be B's coach
+enslave	7	A enslaved B	A turned B into an indentured slave
+feel_sorry_for	7	A felt sorry for B	A felt truly sorry for B
+starve	6	A starved B	A denied B any food and water, A tried to starve B by denying it food
+abandon	6	A abandoned B	A abandoned B there and then, "I'm outa here" shouted A to B, A picked up and left B behind, "I've had enough of you" said A, A ran off and left B behind, A packed a bag and left B, A packed up its things and left B behind
+are_supplanted_by	6	B supplanted A	B took over the position once occupied by A
+testify_for	6	A testified for B	A testified for B in open court
+are_challenged_by	6	B challenged A	A felt challenged by A, B threw down a challenge to A
+are_uncovered_by	6	B uncovered A	B uncovered A's dirty little secret, B figured out what A was up to
+disobey	6	A disobeyed B	A flagrantly disobeyed B's orders
+pray_to	6	A prayed to B	A prayed to B to find divine favor
+favor	6	A favored B	A favored B with its patronage
+conspire_with	6	A conspired with B	A formed a conspiratorial relationship with B
+tune_out	6	A tuned out B	A tried to tune out B's voice
+are_found_by	6	B found A	B found out where A was hiding
+sacrifice	6	A sacrificed B	A sacrificed B to achieve its larger goal
+are_criticized_by	6	B criticized A	B criticized A in public, B offered a savage critique of A, B stuck the knife of public criticism into A, B threw critical brickbats at A, B hurled a volley of criticism at A, B subjected A to a barrage of criticism
+are_imitated_by	6	B imitated A	B imitated A's style and adopted it as its own
+pursue	6	A pursued B	A pursued B relentlessly
+overthrow	6	A overthrew B	A unseated B from its perch, A pushed B off its perch, A kicked B off its throne, A upended B off its throne, A overthrew B and stole its crown
+are_abducted_by	6	B abducted A	B snuck up and abducted A
+are_snatched_by	6	B snatched A	B snuck up and snatched A
+save	6	A saved B	A saved B from a world of trouble
+are_scolded_by	6	B scolded A	B scolded A like a child, B gave A a severe rap on the knuckles, 
+date	6	A dated B	A went on a date with B
+are_silenced_by	6	B silenced A	B shut A up, B made A shut the hell up, "Shut your mouth" said B
+are_mistaken_for	6	A was mistaken for B	A was often mistaken for B in public
+commit_to	6	A committed to B	A made a public commitment to B, A made a commitment to B to always be there
+condemn	6	A condemned B	A delivered a public condemnation of B
+entertain	6	A entertained B	A entertained B with jokes and skits, A showed B a good time, A put on an entertaining show for B
+are_appointed_by	6	B appointed A	B appointed A to high office, B gave A a plum job, B secured a plum appointment for A
+rule_over	6	A ruled over B	A ruled every aspect of B's life, A set the rules for B to follow, A dominated B's life as a king dominates a pawn, A set the rules and B obeyed them, it was for A to set the rules and B to obey them, A called the tune and B danced along to it
+are_censured_by	6	B censured A	B gave A a very public dressing-down, B gave A a very public rap on the knuckles
+destroy	6	A destroyed B	A destroyed B utterly, there was nothing left of B when A was finished, A did to B what the A-bomb did to Hiroshima, A did to B what Japan did to Pearl Harbor, A ground B into a fine powder
+dismiss	6	A dismissed B	A told B to get out and not come back
+enchant	6	A enchanted B	A spun a web of charm around B, A spun a web of enchantment around B
+interrogate	6	A interrogated B	A subjected B to a brutal interrogation
+lie_for	5	A lied for B	A knowingly told lies for B
+admire	5	A admired B	A admired and respected B, A held immense admiration for B, A put B on a pedestal
+travel_with	5	A traveled with B	A traveled around with B, A became a travel companion to B
+trick	5	A tricked B	A used trickery to deceive B, A's trickery found a willing dupe in B, A's trickery went unnoticed by B
+are_coached_by	5	B coached A	B became a coach to A, B agreed to coach A
+are_deposed_by	5	B deposed A	B knocked A off its perch, B unseated A and took its throne for itself, B knocked A off the top of the heap
+are_handled_by	5	B handled A	B agreed to handle and represent A
+enlist	5	A enlisted B	A enlisted B into its ranks
+are_investigated_by	5	B investigated A	B launched an investigation into A, B opened an investigation into A's actions
+are_shielded_by	5	B shielded A	B shielded A from criticism and attack
+are_ejected_by	5	B ejected A	B kicked A out into the cold, B grabbed A by the scruff of the neck and shouted "Get out", B showed A the door with an air of finality, B had enough and kicked A out
+talk_to	5	A talked to B	A sat down with B for a talk
+are_evaluated_by	5	B evaluated A	B performed a detailed evaluation of A
+are_hired_by	5	B hired A	B gave A a job
+fail_to_reward	5	A failed to reward B	A failed to properly reward B, A failed to give B its fair reward
+are_recruited_by	5	B recruited A	B recruited A into its ranks
+are_cut_off_by	5	B cut off A	B cut A off completely
+taunt	5	A taunted B	A hurled cruel taunts at B
+are_imprisoned_by	5	B imprisoned A	B had A locked up
+are_escorted_by	5	B escorted A	B escorted A everywhere
+are_welcomed_by	5	B welcomed A	B welcomed A into its home
+are_released_by	5	B released A	B gave A its freedom
+complain_to	5	A complained to B	A complained to B, A whined and complained to B
+compete_with	5	A competed with B	A formed a competitive relationship with B
+rescue	5	A rescued B	A rescued B from a dangerous situation
+follow	5	A followed B	A became an enthusiastic follower of B
+campaign_for	5	A campaigned for B	A campaigned vigorously for B
+advise	5	A advised B	A served as an advisor to B, A offered B guidance and advice
+are_mistreated_by	5	B mistreated A	B mistreated A rather badly, B did not treat A well
+vote_for	5	A voted for B	A voted for B in the election
+catch	5	A caught B	A finally caught up to B, A finally tracked B down
+search_for	5	A searched for B	A searched for B everywhere
+mimic	5	A mimicked B	A mimicked B's style and adopted it as its own
+compete_against	5	A competed against B	A competed vigorously against B, A formed an intensely competitive relationship with B
+are_begged_by	5	B begged A	B begged A for a hand-out, B begged A for a helping hand
+control	5	A controlled B	A exercized complete control over B
+diagnose	5	A diagnosed B	A diagnosed B's ailment, A ran tests and offered B a diagnosis
+torture	5	A tortured B	A tortured B relentlessly, A found many ways to torture B
+are_sought_by	5	B sought A	B actively sought out A
+rule	5	A ruled B	A ruled every aspect of B's life, A set the rules for B to follow, B followed all of A's rules, A called the tune and B danced along to it
+sign_up	5	A signed B up	A signed up B to its official roster
+respect	5	A respected B	A thoroughly respected B, A had nothing but respect for B, A thought very highly of B, A was very respectful of B, A had the utmost respect for B, A felt a kinship to B, A respected and admired B
+are_disobeyed_by	5	B disobeyed A	B flagrantly disobeyed A's orders
+let_go_of	5	A let go of B	A let go of B, A let B go
+lose_favor_with	5	A lost favor with B	A lost favor with B, B's attitude to A cooled considerably, A was in the dog-house as far as B was concerned, B no longer felt well-disposed toward A
+are_saved_by	5	B saved A	B saved A's life
+watch_over	5	A watched over B	A watched over B assiduously, A kept a watchful eye on B
+capture	4	A captured B	A caught B and held it captive
+are_chosen_by	4	B chose A	B chose A from a crowded field
+are_excommunicated_by	4	B excommunicated A	B cut off all communication with A, B threw A out into the cold, B deemed A to be persona non grata
+are_expelled_by	4	B expelled A	B expelled A from its hallowed ranks
+look_after	4	A looked after B	A diligently looked after B
+share_stories_with	4	A shared stories with B	A shared intimate stories with B
+love	4	A loved B	A felt a deep love for B
+are_punished_by	4	B punished A	B doled out punishment for A's transgressions, B's punishment for A suited the crime, B invented an apt punishment for A, B meted out an apt punishment to A
+read_the_works_of	4	A read the works of B	A read the complete works of B
+are_booed_by	4	B booed A	B booed and jeered at A, B hurled boos and beercans at A, B pelted A with the rotten fruit of mockery
+are_protected_by	4	B protected A	B became an eager protector of A, B became very protective of A
+are_kissed_by	4	B kissed A	B kissed A tenderly, B gave A a passionate kiss, B kissed A passionately
+are_freed_by	4	B freed A	B gave A its freedom
+are_detained_by	4	B detained A	B detained A against its will
+resist	4	A resisted B	A resisted and opposed B, A put up a defiant resistance to B, A was defiant in resisting B, A showed only defiance to B, A refused to buckle under B
+withhold_payment_from	4	A withheld payment from B	A withheld due payment from B
+are_photographed_by	4	B photographed A	B took a photograph of A
+drink_with	4	A drank with B	A went drinking with B, A went for a drink with B
+play_with	4	A played with B	A played with B
+struggle_against	4	A struggled against B	A struggled mightily against B
+pray_with	4	A prayed with B	A prayed with B to the same god
+are_intimidated_by	4	B intimidated A	B intimidated A with threats of violence
+dominate	4	A dominated B	A dominated B utterly, A dominated every aspect of B's life
+ignore	4	A ignored B	A gave B the cold shoulder, A turned its back on B
+are_captured_by	4	B captured A	B made A its captive
+break_up_with	4	A broke up with B	A broke up with B
+evict	4	A evicted B	A evicted B from its home
+oppress	4	A oppressed B	A was an oppressive influence on B
+imprison	4	A imprisoned B	A kept B locked up, A kept B in a cage
+lose_to	4	A lost to B	A lost everything to B
+are_advised_by	4	B advised A	B gave A guidance and advice
+attract	4	A attracted B	A held an immense attraction for B
+rebel_against	4	A rebelled against B	A rebelled openly against B
+visit	4	A visited B	A visited B at home
+tend	4	A tended B	A tended to B's every need
+counsel	4	A counseled B	A was a source of wise counsel for B
+defeat	4	A defeated B	A defeated B utterly, A delivered a crushing defeat to B
+study	4	A studied B	A studied all of B's works
+prey_on	4	A preyed on B	A preyed hungrily on B
+are_funded_by	4	B funded A	B funded A's work
+seduce	4	A seduced B	A seduced and enthralled B, A lured B into the bedroom, A flashed its bedroom eyes at B, A's seductive wiles proved too strong for B, A shamelessly seduced B, A charmed the pants off B
+play_for	4	A played for B	A played for B's entertainment
+cry_for	4	A cried for B	A cried out for B
+report_to	4	A reported to B	A reported everything to B, A made periodic reports to B
+are_charmed_by	4	B charmed A	B charmed A with a sly smile
+guard	4	A guarded B	A guarded and protected B
+brief_against	4	A briefed against B	A briefed everyone would listen against B
+reward	4	A rewarded B	A rewarded B generously, A gave B a generous reward, 
+teach	4	A taught B	A was a dedicated teacher to B
+sing_with	4	A sang with B	A sang along with B
+are_kidnapped_by	3	B kidnapped A	B kidnapped A and kept it hostage
+are_hindered_by	3	B hindered A	B hindered A's work and progress
+are_paid_by	3	B paid A	B paid A for its efforts, B paid A for its services
+are_taught_by	3	B taught A	B taught A everything
+are_defrocked_by	3	B defrocked A	B withdrew all grace and favor from A, B stripped A of all power and authority
+are_followed_by	3	B followed A	B became an enthusiastic follower of A
+entice	1	A enticed B	A enticed B with a smile and a wink
+are_enticed_by	3	B enticed A	B enticed A with a smile and a wink
+are_loved_by	3	B loved A	B loved everything about A, B felt a deep and abiding love for A
+are_helped_by	3	B helped A	B helped A out, B gave A a helping hand
+are_painted_by	3	B painted A	B painted a portrait of A, B painted A's portrait
+are_savaged_by	3	B savaged A	B savaged A, B angrily sunk its teeth into A
+are_supervised_by	3	B supervised A	B supervised A's every activity
+are_overthrown_by	3	B overthrew A	B overthrew and replaced A, B toppled A from the top of the heap, B supplanted A at the top of the heap
+are_caught_by	3	B caught A	B caught up to A and took it captive
+are_healed_by	3	B healed A	B healed A's wounds
+are_tortured_by	3	B tortured A	B tortured A relentlessly
+delegate_to	3	A delegated to B	A delegated responsibility to B
+are_supported_by	3	B supported A	B supported A in everything
+are_persecuted_by	3	B persecuted A	B persecuted A relentlessly
+appease	3	A appeased B	A sought to appease B
+struggle_with	3	A struggled with B	A struggled mightily with B
+are_dispatched_by	3	B dispatched A	B dispatched A on a mission
+are_mentored_by	3	B mentored A	B become a mentor to A
+mentor	3	A mentored B	A became a mentor to B
+are_suppressed_by	3	B suppressed A	B suppressed all mutterings and criticism by A, B used heavy-handed methods to silence A
+copy	3	A copied B	A "borrowed" B's ideas, A plagiarized B's best work
+excommunicate	3	A excommunicated B	A stripped B of its official offices
+are_reported_by	3	B reported A	B reported A to the police
+cast_off	3	A cast off B	A cast B off, A threw B aside with a sneer
+are_interrogated_by	3	B interrogated A	B subjected A to a harsh interrogation, B subjected A to enhanced interrogation techniques
+sweat_for	3	A sweated for B	A sweated long and hard for B
+are_contradicted_by	3	B contradicted A	B contradicted A openly
+disillusion	3	A disillusioned B	A robbed B of its illusions, A disabused B of its illusions, A showed B its true colours, A showed B its less impressive side
+are_wooed_by	3	B wooed A	B set about wooing A
+are_enchanted_by	3	B enchanted A	B spun a web of enchantment around A
+care_for	3	A cared for B	A cared for B like no other
+supply	3	A supplied B	A supplied B with all its needs
+coerce	3	A coerced B	A coerced B into doing what it wanted
+recruit	3	A recruited B	A recruited B into its ranks
+compliment	3	A complimented B	A complimented B with sweet praise
+command	3	A commanded B	A issued command after command to B
+harden_toward	3	A hardened toward B	A's attitude hardened toward B
+are_thanked_by	3	B thanked A	B thanked A effusively
+are_disqualified_by	3	B disqualified A	B disqualified A as a legitimate candidate
+speak_to	3	A spoke to B	A sat down to speak with B
+consult	3	A consulted B	A consulted with B on important matters
+assist	3	A assisted B	A assisted B in its efforts
+haunt	3	A haunted B	memories of A haunted B
+are_debated_by	1	B debated A	B engaged in a tense debate with A
+debate	3	A debated B	A debated long and hard with B
+suppress	3	A suppressed B	A suppressed all dissent from B
+defraud	3	A defrauded B	A used deception to defraud B
+are_informed_by	3	B informed A	B passed valuable information to A
+deploy	3	A deployed B	A deployed B in the field
+evaluate	3	A evaluated B	A performed a thorough evaluation of B
+lead	3	A led B	A was a commanding leader to B
+are_conquered_by	3	B conquered A	B's conquest of A was complete
+are_assisted_by	3	B assisted A	B assisted A in its efforts, B was an able assistant to A
+dispatch	3	A dispatched B	A dispatched B with a message
+are_subdued_by	3	B subdued A	B subdued A completely
+receive	3	A received B	A received B as a guest
+encourage	3	A encouraged B	A encouraged B in its efforts
+are_represented_by	3	B represented A	B represented A in official matters
+seek	3	A sought B	A sought out B and its ilk
+are_persuaded_by	3	B persuaded A	B succeeded in persuading A, B won over A to its point of view
+wait_on	3	A waited on B	A waited on B as a loyal servant
+kidnap	3	A kidnapped B	A took B hostage at gun-point
+rank	3	A ranked B	A decided how to rank B relative to other candidates
+persecute	3	A persecuted B	A persecuted B relentlessly
+forgive	3	A forgave B	A forgave B for all its sins
+are_served_by	3	B served A	B served A loyally
+manage	3	A managed B	A managed B's career and business affairs
+pamper	3	A pampered B	A pandered to and pampered B 
+torment	3	A tormented B	A tormented B in cruel and diverse ways
+supplant	3	A supplanted B	A took over B's role completely
+offend	3	A offended B	A was offensive to B, A offended B's sensibilities
+are_tracked_by	3	B tracked A	B tracked A to where it was hiding
+send	3	A sent B	A sent B into the field on a mission
+lose_interest_in	3	A lost interest in B	A completely lost interest in B
+charm	3	A charmed B	A charmed the pants off B, A spun a web of charisma around B
+take_as_prisoner	3	A took B as a prisoner	A took B as a prisoner
+sign_with	3	A signed with B	A signed up with B as a client
+resemble	3	A resembled B	A bore a very close resemblance to B
+are_tormented_by	2	B tormented A	B tormented A relentlessly
+are_oppressed_by	2	B oppressed A	B was an oppressive force in A's life
+are_ruined_by	2	B ruined A	B ruined A's life, B ruined A's life work, B burned A's life to the ground, B was the ruination of A's life
+are_read_by	2	B read A	B read all of A's published work
+are_financed_by	2	B financed A	B financed A's efforts, B provided financial support for A's work, B provided financial backing for A's work
+intimidate	2	A intimidated B	A intimidated B with threats of violence
+are_offended_by	2	B offended A	B mightily offended A
+are_counseled_by	2	B counseled A	B counseled A with sage advice
+debate_with	2	A debated with B	A debated enthusiastically with B, A threw itself into debate with B
+arrest	2	A arrested B	A arrested B for its transgressions
+perform_with	2	A performed with B	A shared the stage with B for a performance
+avoid	2	A avoided B	A avoided B assiduously, A actively tried to avoid B
+attend	2	A attended B	A attended to B's every need
+are_rebuked_by	2	B rebuked A	B delivered a stinging rebuke to A
+execute	2	A executed B	A brought the axe down on B's neck, A lowered the boom on B
+are_tutored_by	2	B tutored A	B tutored A in the ways of life
+defend	2	A defended B	A defended B from its enemies
+protect	2	A protected B	A protected B from its enemies
+are_failed_by	2	B failed A	B proved to be a failure to A
+cheat_with	2	A cheated with B	A started an illicit affair with B
+propose_to	2	A proposed to B	A went down on bended knee and proposed to B
+satirize	2	A satirized B	A wrote a stinging satire about B
+are_treated_by	2	B treated A	B treated A's ailments
+are_accompanied_by	2	B accompanied A	B accompanied A everywhere
+agree_with	2	A agreed with B	A came to agreement with B
+educate	2	A educated B	A educated B in the ways of the world
+snatch	2	A snatched B	A snatched B and ran off
+speak_through	2	A spoke through B	A only spoke through B
+are_baptized_by	2	B baptized A	B initiated A in a baptism of fire
+are_marketed_by	2	B marketed A	B burnished A's public image, B talked up A in public
+are_undermined_by	2	B undermined A	B undermined A's position, B spread undermining rumors about A, B went behind A's back and undermined its position, B was an undermining influence on A, B worked hard to undermine A's position 
+are_repaid_by	2	B repaid A	B repaid its debt to A completely
+fight_for	2	A fought for B	A fought loyally for B's cause
+chat_with	2	A chatted with B	A chatted amiably with B
+help	2	A helped B	A gave a helping hand to B
+lecture_to	2	A lectured to B	A gave B a long lecture
+are_blessed_by	2	B blessed A	B gave A its blessing
+are_complimented_by	2	B complimented A	B complimented A with sweet praise
+reach_out_to	2	A reached out to B	A reached out to make a connection to B
+supervise	2	A supervised B	A supervised B's every effort
+sell_to	2	A sold to B	A sold B everything it needed
+are_tipped_by	2	B tipped A	B gave A a big tip
+tip	2	A tipped B	A gave B a generous tip
+whip	2	A whipped B	A took a whip to B's back
+laugh_at	2	A laughed at B	A laughed at B with a hearty guffaw
+woo	2	A wooed B	A set about to woo B, A set about to get B into bed
+are_supplied_by	2	B supplied A	B supplied A with everything it needed
+are_drilled_by	1	B drilled A	B subjected A to a series of demanding drills, B drilled discipline and routine into A
+are_trained_by	2	B trained A	B became A's trainer, B put A on a strict training regimen, B subjected A to a strict training regime
+instruct	2	A instructed B	A instructed B in the ways of the world
+review	2	A reviewed B	A offered a honest review of B
+operate_on	2	A operated on B	A performed surgery on B
+cure	2	A cured B	A cured B of it ailments
+curse	2	A cursed B	A cursed B from a height, A spat a string of dire curses at B, 
+are_converted_by	2	B converted A	B made a willing convert of A
+fight	2	A fought B	A faced-off with B in a tense battle
+are_defrauded_by	2	B defrauded A	B defrauded A in a devious con-job
+are_accommodated_by	2	B accommodated A	B accommodated A in its home, B gave A a place to sleep
+are_fielded_by	2	B fielded A	B sent A out into the field
+are_evicted_by	2	B evicted A	B evicted A from its home
+are_exorcized_by	2	B exorcized A	B banished the ghost of A, B forbade any mention of A, B exorcised the ghostly memory of A, B forever banished the ghostly memory of A, B pushed memories of A into the deepest recesses of its mind, B underwent hypnotherapy to banish memories of A
+devour	2	A devoured B	A picked the flesh from B's bones
+govern_for	2	A governed for B	A proved an able governor for B
+treat	2	A treated B	A treated B's ailments
+terrorize	2	A terrorized B	A terrorized B, A committed terrorist outrages against B, A used the threat of violence to terrorize B
+are_visited_by	2	B visited A	B visited A's home
+disqualify	2	A disqualified B	A disqualified B as a legitimate candidate
+nominate	2	A nominated B	A nominated B as its preferred candidate
+rebuff	2	A rebuffed B	A rebuffed B's efforts at reconciliation
+invest_in	2	A invested in B	A invested money in B's scheme, A put money into B's venture
+murder	2	A murdered B	A murdered B in its bed
+train	2	A trained B	A became B's trainer
+cater_to	2	A catered to B	A catered to B's every whim
+host	2	A hosted B	A was a gracious host to B
+are_encouraged_by	2	B encouraged A	B encouraged A's enthusiasms, B encouraged A's passions, B gave further encouragement to A
+are_diagnosed_by	2	B diagnosed A	B diagnosed A's ailments
+are_overworked_by	2	B overworked A	B made A work every hour of the day
+are_questioned_by	2	B questioned A	B fired a volley of questions at A
+represent	2	A represented B	A represented B in official matters
+are_nominated_by	2	B nominated A	B nominated A as its candidate
+detain	2	A detained B	A detained B against its will
+massage	2	A massaged B	A massaged B's body and ego
+reject	2	A rejected B	A rejected B's advances
+are_studied_by	2	B studied A	B studied A's life and work
+cast_out	2	A cast out B	A cast B out into the cold
+fight_with	2	A fought with B	A fought side-by-side with B
+find	2	A found B	A found where B was hiding
+are_spoiled_by	2	B spoiled A	B spoiled A terribly
+pity	2	A pitied B	A felt nothing but pity for B
+free	2	A freed B	A freed B from its shackles
+dislike	2	A disliked B	A disliked B intensively
+incarcerate	2	A incarcerated B	A locked B up
+deliver_for	2	A delivered for B	A delivered messages for B
+hunt	2	A hunted B	A hunted B down
+apprehend	2	A apprehended B	A tracked and apprehended B
+pick_on	2	A picked on B	A picked on B pitilessly, A picked on B mercilessly
+are_led_by	2	B led A	B became a leader to A
+experiment_on	2	A experimented on B	A experimented on B without permission
+look_for	2	A looked for B	A looked for B everywhere, A left no stone unturned in the search for B, A looked high and low for B, "Where are you?!?" shouted A desperately
+preach_to	2	A preached to B	A preached to B at length, A delivered a lengthy sermon to B
+translate_for	2	A translated for B	A had to translate B's words into something others could understand
+give_birth_to	2	A gave birth to B	A gave birth to B
+are_radicalized_by	2	B radicalized A	B radicalized A in the ways of extremism
+are_commanded_by	2	B commanded A	B issued command after command to A
+tower_over	2	A towered over B	A towered over B in every way
+are_published_by	2	B published A	B published A's life's work, B published A's masterpiece
+write_about	2	A wrote about B	A wrote about B's life and work
+cross_examine	2	A cross examined B	A cross examined B in a tense face-off
+overcome	2	A overcame B	A overcame all opposition from B
+propagandize_for	2	A propagandized for B	A wrote propaganda to promote B's cause
+select	2	A selected B	A selected B from a crowded field of candidates
+sell_through	2	A sold through B	A sold its work through B
+snitch_to	2	A snitched to B	A became a snitch for B, A became a stool pigeon for B, A became an informant for B
+tip_off	2	A tipped off B	A tipped B off with inside information
+prosecute	2	A prosecuted B	A prosecuted B for its crimes
+are_remembered_by	2	B remembered A	B held on to the memory of A
+are_energized_by	2	B energized A	B gave A energy
+run_against	2	A ran against B	A ran against B in the election
+accompany	2	A accompanied B	A accompanied B everywhere
+govern	2	A governed B	A governed B's life
+hurt	2	A hurt B	A really hurt B
+are_rejected_by	2	B rejected A	B rejected A's proposition
+are_resented_by	2	B resented A	B nurtured resentment toward A
+monitor	2	A monitored B	A monitored every aspect of B's life
+embarrass	2	A embarrassed B	A embarrassed B in public
+buy_from	2	A bought from B	A bought stuff from B
+impersonate	2	A impersonated B	A did a very good impersonation of B
+consult_with	2	A consulted with B	A consulted with B on important matters
+snitch_on	2	A snitched on B	A snitched on B to the authorities, A told tales about B to the authorities
+vote_against	2	A voted against B	A voted against B in the election
+are_used_by	1	B used A	B used A to get what it wanted
+brainwash	1	A brainwashed B	A brainwashed B into believing the official line
+are_hunted_by	1	B hunted A	B hunted A down, B followed every clue to hunt A down 
+are_admired_by	1	B admired A	B respected and admired A
+debrief	1	A debriefed B	A debriefed B on the matter at hand
+examine	1	A examined B	A gave B a thorough examination
+answer_questions_from	1	A answered questions from B	A answered a volley of questions from B
+are_monitored_by	1	B monitored A	B monitored every aspect of A's life
+build_for	1	A built for B	A erected buildings for B
+are_mystified_by	1	B mystified A	B seemed to A to be enshrouded in mystique, B spun a web of mysticism around A, B seemed mysterious to A
+are_educated_by	1	B educated A	B educated A in the ways of the world
+are_accused_by	1	B accused A	B accused A of a serious transgression, B wanted to bring A to book for its crimes
+are_championed_by	1	B championed A	B championed A's cause
+are_driven_around_by	1	B drove A around	B drove A everywhere
+design_for	1	A designed for B	A designed beautiful things for B
+confess_to	1	A confessed to B	A confessed all its wrongdoings to B
+are_assaulted_by	1	B assaulted A	B viciously assaulted A
+inherit_from	1	A inherited from B	A inherited all its land and its belongings from B
+nurture	1	A nurtured B	A nurtured B as a mother nurtures a child
+are_answered_by	1	B answered A	B answered A's most probing questions
+beautify	1	A beautified B	A pulled out all the stops to make B beautiful
+enhance	1	A enhanced B	A enhanced B's appearance, A gave B a complete make-over
+style_for	1	A styled for B	A styled B's hair and overall appearance
+are_attended_by	1	B attended A	B attended to A's every need 24/7
+are_venerated_by	1	B venerated A	B erected an altar to A in its heart
+are_selected_by	1	B selected A	B selected A for a very important task, B selected A from a crowded field of candidates
+leak_to	1	A leaked to B	A leaked sensitive information to B, A leaked valuable information to B
+are_introduced_by	1	B introduced A	B introduced A to its coterie, B introduced A to its social circle, B threw a coming out party for A
+are_named_by	1	B named A	B released A 's name and identity to the public
+perform_for	1	A performed for B	A performed live for B
+live_with	1	A lived with B	A packed a bag and went to live with B
+provide_for	1	A provided for B	A provided for B's every need
+renounce	1	A renounced B	A renounced B and all its works
+consort_with	1	A consorted with B	A consorted with B in public
+drive_for	1	A drove for B	A drove B around the place
+are_bored_with	1	A was bored with B	A was utterly bored with B, A was bored out of its skull by B
+finance	1	A financed B	A financed B's project, A provided the financial backing for B's project
+are_waited_upon_by	1	B waited upon A	B waited upon A and met its every need
+pick	1	A picked B	A picked out B for patronage, A showered B with patronage, A bestowed patronage upon B
+are_rewarded_with	1	A was rewarded with B	A received B as a reward
+supply_to	1	A supplied to B	A supplied everything that B needed for its work
+ordain	1	A ordained B	A ordained B into the priesthood
+are_ordained_by	1	B ordained A	B ordained A into the priesthood
+transport	1	A transported B	A transported B to where it wanted to go
+are_appreciated_by	1	B appreciated A	B appreciated everything that A had done for it
+are_sickened_by	1	B sickened A	B made A sick to its stomach
+are_victimized_by	1	B victimized A	B routinely victimized A, B bullied and traumatized A, B made a real victim out of A
+navigate_for	1	A navigated for B	A served as a navigator for B
+become_dependent_upon	1	A became dependent upon B	A became utterly dependent upon B, A became utterly reliant on B
+are_driven_by	1	B drove A	B drove A around the place
+are_prosecuted_by	1	B prosecuted A	B prosecuted A for its crimes
+are_tended_by	1	B tended A	B tended to A's every need
+are_raised_by	1	B raised A	B raised A into an adult
+accommodate	1	A accommodated B	A provided accommodation for B in its home
+are_frustrated_by	1	B frustrated A	B was a constant source of frustration to A
+lease_to	1	A leased to B	A leased an apartment to B
+rent_to	1	A rented to B	A rented an apartment to B
+baptise	1	A baptised B	A initiated B into the new religion
+govern_via	1	A governed via B	A governed the land with B as a trusted lieutenant
+are_motivated_by	1	B motivated A	B gave A its motivation, B was a motivating force in A's life
+model_for	1	A modeled for B	A did modeling work for B, A posed and modeled for B's art
+are_whipped_by	1	B whipped A	B took a whip to A's back
+negotiate_for	1	A negotiated for B	A handled all the negotiations for B
+despise	1	A despised B	A despised everything about B
+are_guaranteed_by	1	B guaranteed A	B offered a personal guarantee for A's reliability
+train_with	1	A trained with B	A trained with B, A underwent intensive training with B
+are_signed_by	1	B signed A	B signed A as a client
+are_chronicled_by	1	B chronicled A	B chronicled A's life and times
+are_defended_by	1	B defended A	B defended A from its rivals
+are_graded_by	1	B graded A	B graded A's work
+bully	1	A bullied B	A bullied B constantly, A was a real bully to B, A was a cruel bully to B
+are_overrun_by	1	B overran A	B walked all over A
+paint	1	A painted B	A painted a picture of B
+are_popularized_by	1	B popularized A	B popularized A and its work
+are_scripted_by	1	B scripted A	B scripted all of A's actions and speeches
+are_picked_by	1	B picked A	B picked A from a crowded field of competitors
+decapitate	1	A decapitated B	A cut off B's head
+are_rescued_by	1	B rescued A	B rescued A from a terrible predicament
+baptize	1	A baptized B	A initiated B into the new religion
+are_discovered_by	1	B discovered A	B discovered A
+play_against	1	A played against B	A played against B
+are_insured_by	1	B insured A	B insured A against any losses
+are_deployed_by	1	B deployed A	B deployed A in the field
+act_via	1	A acted via B	A took decisive action via B
+communicate_through	1	A communicated through B	B served as a mouthpiece for A
+communicate_via	1	A communicated via B	B served as a mouthpiece for A
+are_usurped_by	1	B usurped A	B usurped all of A's power
+talk_through	1	A talked through B	A used B as a public mouthpiece
+countersue	1	A countersued B	A launched a counter suit against B
+are_enlisted_by	1	B enlisted A	B enlisted A into its ranks
+leave_behind	1	A left behind B	A went away and left behind B
+accuse	1	A accused B	A accused B of heinous wrongdoing
+communicate_with	1	A communicated with B	A opened up communications with B
+dress	1	A dressed B	A helped B get dressed in the mornings
+are_judged_by	1	B judged A	B judged A and found it wanting
+seek_sympathy_from	1	A sought sympathy from B	A sought sympathy from B
+are_retained_by	1	B retained A	B retained A's services
+are_traumatized_by	1	B traumatized A	B's abusive behaviour traumatized A
+photograph	1	A photographed B	A took a photograph of B
+pitch_at	1	A pitched at B	A pitched a curve ball to B
+sire	1	A sired B	A was the father that sired B
+are_ennobled_by	1	B ennobled A	B ennobled A with an aristocratic title, B dubbed A a knight
+are_hurt_by	1	B hurt A	B really hurt A
+argue_before	1	A argued before B	A argued before the bench in B's court
+are_controlled_by	1	B controlled A	B controlled every aspect of A's life
+remember	1	A remembered B	A held on to memories of B
+are_instructed_by	1	B instructed A	B instructed A in the ways of the world, B gave A a detailed set of instructions
+unleash	1	A unleashed B	A unleashed B on the world
+charge	1	A charged B	A charged B with a serious crime
+discipline	1	A disciplined B	A taught B manners and discipline
+heal	1	A healed B	A healed B's ailments
+minister_to	1	A ministered to B	A ministered to B's spiritual needs
+persuade	1	A persuaded B	A brought B around to its way of thinking
+raise	1	A raised B	A raised B to maturity
+question	1	A questioned B	A hurled a barrage of questions at B
+are_facilitated_by	1	B facilitated A	B facilitated A's activities
+round_up	1	A rounded up B	A rounded up B and its comrades
+abet	1	A abetted B	A abetted B in its crimes
+deal_with	1	A dealt with B	A reached a deal with B
+worship_with	1	A worshipped with B	A worshipped with B in the same church
+intimidate_with	1	A intimidated with B	A intimidated others with threats of violence from B
+mate_with	1	A mated with B	A selected B as a mate
+pick_up	1	A picked up B	A picked up B in a singles bar
+are_robbed_by	1	B robbed A	B robbed all of A's precious belongings, B robbed A's most precious belongings
+target	1	A targeted B	A lined up B as its next target
+chase	1	A chased B	A chased after B
+chase_after	1	A chased after B	A chased after B
+are_cared_for_by	1	B cared for A	B cared for all of A's needs
+flee_from	1	A fled from B	A fled from B and hid out
+are_nurtured_by	1	B nurtured A	B nurtured A's soul
+commission	1	A commissioned B	A commissioned a new work from B
+are_roused_by	1	B roused A	B roused A's passions, B roused A into passionate action
+rouse	1	A roused B	A roused B into passionate action
+conquer	1	A conquered B	A achieved a total victory over B
+create_for	1	A created stuff for B	A poured all its creativity into its work for B, A tapped into its creative spirit to give B what it needed
+write_for	1	A wrote for B	A wrote new material for B, A wrote lots of new stuff for B
+compose_with	1	A composed with B	A composed music and lyrics with B
+are_examined_by	1	B examined A	B performed a thorough examination of A
+are_fought_by	1	B fought A	B fought A tooth and nail
+take_messages_for	1	A took messages for B	A diligently took messages for B
+testify_before	1	A testified before B	A testified before B in open court
+are_charged_by	1	B charged A	B charged A with a serious crime
+are_chased_by	1	B chased A	B chased after A
+indulge	1	A indulged B	A indulged B's every whim
+are_guarded_by	1	B guarded A	B guarded A closely
+spoil	1	A spoiled B	A spoiled B by pandering to its whims
+advocate_for	1	A advocated for B	A became an enthusiastic advocate for B's cause, A became an enthusiastic advocate in B's corner 
+are_owed_by	1	B owed A	B owed A a great deal
+are_missed_by	1	B missed A	B missed A now that A was gone
+are_profiled_by	1	B profiled A	B created a detailed profile of A
+write_to	1	A wrote to B	A wrote a long letter to B
+convert	1	A converted B	A made a willing convert of B
+speak_with	1	A spoke with B	A spoke with B at length
+evaluate_with	1	A evaluated with B	A hired B to perform the necessary evaluations
+guide	1	A guided B	A guided B in the ways of the world
+mystify	1	A mystified B	A seemed to B to be wrapped in a fog of mystery, A possessed an enigmatic air of mystery for B
+act_for	1	A acted for B	A acted on behalf of B in official matters
+ask_questions_for	1	A asked questions for B	A was hired to get answers for B
+interpret_for	1	A interpreted for B	A served as an interpreter for B
+speak_for	1	A spoke for B	A spoke for B in public
+are_counselled_by	1	B counselled A	B counselled A with sage advice
+are_guided_by	1	B guided A	B guided A around life's obstacles
+are_summoned_by	1	B summoned A	B summoned A to an emergency meeting
+hit	1	A hit B	A gave B an almighty wallop, A hit B with a roundhouse punch, A hit B with a sucker-punch
+are_probed_by	1	B probed A	B probed A for secrets and hidden weaknesses
+anger	1	A angered B	A made B go red with anger, A made B see red with anger
+sell_via	1	A sold via B	A used B as a middleman for its goods
+are_influenced_by	1	B influenced A	B influenced A in subtle but important ways
+are_subjugated_by	1	B subjugated A	B's subjugation of A was complete, B made A its bitch
+are_reviewed_by	1	B reviewed A	B reviewed A's work to form a critique
+abduct	1	A abducted B	A abducted B when no one expected it
+are_impersonated_by	1	B impersonated A	B did a very good impersonation of A
+rent_from	1	A rented from B	A rented its accommodation from B
+borrow_from	1	A borrowed from B	A borrowed a lot of money from B
+are_elected_by	1	B elected A	B helped A to be elected, B voted for A multiple times
+owe	1	A owed B	A owed B a great deal
+owe_to	1	A owed to B	A owed a great deal to B
+rob	1	A robbed B	A robbed B's most precious belongings
+respond_to	1	A responded to B	A gave B a detailed response
+influence	1	A influenced B	A influenced B in subtle but important ways
+are_received_by	1	B received A	B graciously received A into its home
+cause_trouble_for	1	A caused trouble for B	A caused a great deal of trouble for B
+corrupt	1	A corrupted B	A corrupted B's heart and soul
+are_overwhelmed_by	1	B overwhelmed A	B overwhelmed A with its unstoppable might
+molest	1	A molested B	A molested and abused B
+handle	1	A handled B	A handled B's business needs
+assassinate	1	A assassinated B	A carried out an assassination attempt on B
+blow_up	1	A blew up B	A blew up B with a car bomb
+assault	1	A assaulted B	A brutally assaulted B
+beat_up	1	A beat up B	A beat up B in a brutal assault
+mourn_for	1	A mourned for B	A mourned for the loss of B
+joke_about	1	A joked about B	A told questionable jokes about B
+pray_for	1	A prayed for B	A prayed for B's soul
+identify	1	A identified B	A identified B in a line up
+interact_with	1	A interacted with B	A interacted with B socially
+are_targeted_by	1	B targeted A	B lined up A as its next target
+distrust	1	A distrusted B	A had every reason to distrust B, A's distrust of B ran deep
+descend_from	1	A descended from B	A traced its lineage back to B
+learn_with	1	A learned with B	A was a student in the same school as B
+are_wanted_by	1	B wanted A	B wanted to find and arrest A
+rely_on	1	A relied on B	A relied on B more and more
+are_bullied_by	1	B bullied A	B bullied and harassed A all the time
+breastfeed	1	A breastfed B	A nurtured B with the milk of loving kindness
+attend_to	1	A attended to B	A attended to B's every need
+facilitate	1	A facilitated B	A facilitated B's activities
+create_for	1	A created for B	A dreamed up new creations for B's enjoyment, A came up with creative innovations for B
+cook_for	1	A cooked for B	A cooked exquisite meals for B
+farm_for	1	A farmed for B	A ran a large farm for B
+fool	1	A fooled B	A made a fool of B
+answer	1	A answered B	A answered B's questions
+lease_from	1	A leased from B	A leased its accommodation from B
+pay	1	A paid B	A paid B what it owed
+are_transported_by	1	B transported A	B transported A to where it needed to go
+export_to	1	A exported to B	A exported goods to B
+fund	1	A funded B	A funded B's business ventures
+guarantee	1	A guaranteed B	A guaranteed B to its creditors
+order_from	1	A ordered from B	A ordered goods from B
+are_dominated_by	1	B dominated A	B dominated every aspect of A's life
+are_lured_by	1	B lured A	B lured A out of hiding
+inform	1	A informed B	A passed information to B
+exorcise	1	A exorcised B	A exorcised the ghostly memory of B, A forever banished the ghostly memory of B, A hid memories of B in the deepest recesses of its mind, A underwent hypnotherapy to banish memories of B
+popularize	1	A popularized B	A popularized B in the public imagination
+deliver_to	1	A delivered to B	A delivered goods and messages to B
+topple	1	A toppled B	A toppled B from its perch
+censure	1	A censured B	A censured B for its unauthorized activities
+threaten_with	1	A threatened with B	A used B to threaten others with violence
+lend_to	1	A lent to B	A lent money to B, A gave B a loan
+answer_to	1	A answered to B	A answered only to B
+carry_for	1	A carried for B	A carried water for B
+champion	1	A championed B	A was in B's corner and championed B's cause
+elect	1	A elected B	A helped to elect B to high office
+please	1	A pleased B	A's efforts pleased B
+work_under	1	A worked under B	A worked hard under B
+challenge	1	A challenged B	A presented a serious challenge to B, A attacked everything B stood for
+collude_with	1	A colluded with B	A colluded with B in underhand activities
+harass	1	A harassed B	A harassed B continuously
+shill_for	1	A shilled for B	A promoted B's cause to anyone who would listen
+are_overshadowed_by	1	B overshadowed A	B's shadow engulfed A entirely
+overshadow	1	A overshadowed B	A's shadow engulfed B entirely
+repress	1	A repressed B	A repressed B's natural ebullience
+subdue	1	A subdued B	A subdued any dissent from B
+pose_for	1	A posed for B	A posed for B's pictures
+are_managed_by	1	B managed A	B managed A's career
+are_greeted_by	1	B greeted A	B greeted A warmly
+study_under	1	A studied under B	A studied under B, A studied under B's tutelage, A took lessons from B
+are_overlooked_by	1	A was overlooked by B	B paid no attention to A, B didn't acknowledge A's existence, B hardly noticed A at all
+read_about	1	A read about B	A read all about B in the papers
