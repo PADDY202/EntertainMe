@@ -34,45 +34,57 @@ public class TwitterBot {
     private final static String AccessToken = "787938126404747264-zelNDg5UgHshUg7XMkTi3U7ZGgl1ugv";
     private final static String AccessTokenSecret = "RFWMEKOrss32rmb34l2mqZ01yoM3GIDV45iT9EeB8wWnA";
     private static Twitter twitter = new TwitterFactory().getInstance();
-
-
+    
     public void start() throws TwitterException, IOException {
 
- twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
- AccessToken oathAccessToken = new AccessToken(AccessToken,
-		 AccessTokenSecret);
- twitter.setOAuthAccessToken(oathAccessToken);
+    	twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
+    	AccessToken oathAccessToken = new AccessToken(AccessToken,AccessTokenSecret);
+    	twitter.setOAuthAccessToken(oathAccessToken);
+    }
+    
+    private static ConfigurationBuilder buildConfig()
+    {
+    	ConfigurationBuilder cb = new ConfigurationBuilder();
+    	 cb.setOAuthConsumerKey(CONSUMER_KEY);
+    	 cb.setOAuthConsumerSecret(CONSUMER_KEY_SECRET);
+    	 cb.setOAuthAccessToken(AccessToken);
+    	 cb.setOAuthAccessTokenSecret(AccessTokenSecret);
+    	 return cb;
+    }
+    
+    private static boolean consentDecline (String text)
+    {
+    	if( text.contains("entertainmeucd")&&(text.contains("no")||text.contains("No")
+    			||text.contains("nope")||text.contains("Nope")
+    			||text.contains("nay")||text.contains("Nay")
+    			||text.contains("nah")||text.contains("Nah")
+    			||text.contains("not")||text.contains("Not")
+
+    			
+    			))
+    	{
+    		return false;
+    	}
+    	else
+    	{
+        	return true;
+    	}
     }
 
+    
     public static void main(String[] args) throws Exception {
- new TwitterBot().start();
- ConfigurationBuilder cb = new ConfigurationBuilder();
- cb.setOAuthConsumerKey(CONSUMER_KEY);
- cb.setOAuthConsumerSecret(CONSUMER_KEY_SECRET);
- cb.setOAuthAccessToken(AccessToken);
- cb.setOAuthAccessTokenSecret(AccessTokenSecret);
- 
- TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
- StatusListener listener = new StatusListener() {
-
-     public void onStatus(Status status) {
-         System.out.println("@" + status.getUser().getScreenName() + " - " + status.getText());
-         String p = status.getUser().getScreenName();
-         long cursor = -1;
-
-        	 if( status.getText().contains("entertainmeucd")&&((status.getText().contains("yes")||
-        			  status.getText().contains("Yes") || status.getText().contains("Yeah")
-        			  || status.getText().contains("yeah") || status.getText().contains("Please")
-        			  || status.getText().contains("please") || status.getText().contains("ok") 
-        			  || status.getText().contains("OK")  ||status.getText().contains("Ok") ||
-        			  status.getText().contains("k")) || status.getText().contains("Go on") ||
-        			 status.getText().contains("Gwan") || status.getText().contains("go on")
-        			 || status.getText().contains("Aye") || status.getText().contains("aye")
-        			 || status.getText().contains("Yup") || status.getText().contains("yup") 
-        			 || status.getText().contains("I do") || status.getText().contains("k") ))
+    	new TwitterBot().start();
+    	ConfigurationBuilder cb = buildConfig();
+    	TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
+    	StatusListener listener = new StatusListener() {
+    		public void onStatus(Status status) {
+    		System.out.println("@" + status.getUser().getScreenName() + " - " + status.getText());
+    		String p = status.getUser().getScreenName();
+    		long cursor = -1;
+        	 if(!consentDecline(status.getText()))
         	 {
-                 try {
-     			List<User> users= twitter.getFriendsList(status.getUser().getId(), cursor);
+        		try {
+        		List<User> users= twitter.getFriendsList(status.getUser().getId(), cursor);
     			Random rand = new Random();
     			int randomi =rand.nextInt(users.size()-1);
     			long replyTo=status.getId();
