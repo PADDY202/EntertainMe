@@ -52,22 +52,15 @@ public class TwitterBot {
     	 return cb;
     }
     
-    private static boolean consentDecline (String text)
+    private static boolean consent (String text)
     {
-    	if( text.contains("entertainmeucd")&&(text.contains("no")||text.contains("No")
-    			||text.contains("nope")||text.contains("Nope")
-    			||text.contains("nay")||text.contains("Nay")
-    			||text.contains("nah")||text.contains("Nah")
-    			||text.contains("not")||text.contains("Not")
-
-    			
-    			))
+    	if( text.contains("entertainmeucd")&&(text.contains("yes")||text.contains("Yes")|| text.contains("YES")))
     	{
-    		return false;
+    		return true;
     	}
     	else
     	{
-        	return true;
+        	return false;
     	}
     }
 
@@ -81,14 +74,14 @@ public class TwitterBot {
     		System.out.println("@" + status.getUser().getScreenName() + " - " + status.getText());
     		String p = status.getUser().getScreenName();
     		long cursor = -1;
-        	 if(!consentDecline(status.getText()))
+        	 if(consent(status.getText()))
         	 {
         		try {
         		List<User> users= twitter.getFriendsList(status.getUser().getId(), cursor);
     			Random rand = new Random();
     			int randomi =rand.nextInt(users.size()-1);
     			long replyTo=status.getId();
-    			String a = users.get(randomi).getScreenName();
+    			String a = "@"+users.get(randomi).getScreenName();
     			TripleManager tm = new TripleManager();
     			Story s =tm.MakeStoryLen(3);
     			s.setAntagonist(a);
@@ -113,7 +106,8 @@ public class TwitterBot {
         	 }
         	 if (status.getText().contains("#EntertainMe") || status.getText().contains("#Entertainme")||status.getText().contains("#entertaine") )
         	 {
- 			    StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " Would you like me to tell you an entertaining story?");
+ 			    ConsentManager cm = new ConsentManager();
+        		StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " " + cm.getRandomConsent());
  			    stat.inReplyToStatusId(status.getId());
  			    try {
 					twitter.updateStatus(stat);
@@ -132,7 +126,7 @@ public class TwitterBot {
      }
 
      public void onScrubGeo(long userId, long upToStatusId) {
-         System.out.println("Got scrub_geo event userId:" + userId + " upToStatusId:" + upToStatusId);
+         System.out.println("Got scrub_geo event userId:" + "@" + userId + " upToStatusId:" + upToStatusId);
      }
 
      public void onException(Exception ex) {
