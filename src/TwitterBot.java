@@ -33,6 +33,7 @@ public class TwitterBot {
      "YwMURE5pbKIKaOQfXO8dqtT0Lpd770t7tz1MrIRJm84Uqpx7GM";
     private final static String AccessToken = "787938126404747264-zelNDg5UgHshUg7XMkTi3U7ZGgl1ugv";
     private final static String AccessTokenSecret = "RFWMEKOrss32rmb34l2mqZ01yoM3GIDV45iT9EeB8wWnA";
+    private static long storystatusID =0;
     private static Twitter twitter = new TwitterFactory().getInstance();
     
     public void start() throws TwitterException, IOException {
@@ -56,6 +57,7 @@ public class TwitterBot {
     {
     	if( text.contains("entertainmeucd")&&(text.contains("yes")||text.contains("Yes")|| text.contains("YES")))
     	{
+    	
     		return true;
     	}
     	else
@@ -72,15 +74,15 @@ public class TwitterBot {
     	StatusListener listener = new StatusListener() {
     		public void onStatus(Status status) {
     		System.out.println("@" + status.getUser().getScreenName() + " - " + status.getText());
-    		String p = status.getUser().getScreenName();
+    		String p = "@"+status.getUser().getScreenName();
     		long cursor = -1;
         	 if(consent(status.getText()))
         	 {
         		try {
         		List<User> users= twitter.getFriendsList(status.getUser().getId(), cursor);
     			Random rand = new Random();
-    			int randomi =rand.nextInt(users.size()-1);
-    			long replyTo=status.getId();
+    			int randomi =rand.nextInt(users.size()-1);    			
+    			long replyTo=status.getId();  			
     			String a = "@"+users.get(randomi).getScreenName();
     			TripleManager tm = new TripleManager();
     			Story s =tm.MakeStoryLen(3);
@@ -89,11 +91,11 @@ public class TwitterBot {
     			Vector<String> stringStory  = s.getStory();
     			for (int i=0; i <stringStory.size()-1; i++)
     			{
-    			    StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " "+ stringStory.get(i));
+    			    StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " "+ stringStory.get(i));   			   
     			    TimeUnit.SECONDS.sleep(1);
-    			    stat.inReplyToStatusId(replyTo);
-    			    twitter.updateStatus(stat);
-    				
+    			    stat.setInReplyToStatusId(replyTo);
+    			    replyTo= twitter.updateStatus(stat).getId(); 
+    			      				
     			}
     			
     		} catch (TwitterException e) {
