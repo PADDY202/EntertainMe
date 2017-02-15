@@ -12,11 +12,10 @@ public class Test {
 	
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub	
-		TripleManager tm = new TripleManager();
-		Story s =tm.MakeStoryLen(3);
-		s.setAntagonist("Guénolé");
-		s.setProtagonist("David");
-		System.out.println(s.getStory());
+	//	TripleManager tm = new TripleManager();
+	//	Story s =tm.MakeStoryLen(3);
+	//	s.setAntagonist("Guénolé");
+	//	s.setProtagonist("David");
 		
 	
 	}

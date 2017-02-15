@@ -106,7 +106,7 @@ public class TwitterBot {
     			e.printStackTrace();
     		}  
         	 }
-        	 if (status.getText().contains("#EntertainMe") || status.getText().contains("#Entertainme")||status.getText().contains("#entertaine") )
+        	 if (status.getText().contains("#EntertainMe") || status.getText().contains("#Entertainme")||status.getText().contains("#entertainme") )
         	 {
  			    ConsentManager cm = new ConsentManager();
         		StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " " + cm.getRandomConsent());
