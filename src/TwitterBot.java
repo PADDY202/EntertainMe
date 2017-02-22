@@ -23,16 +23,17 @@ import twitter4j.TwitterFactory;
 import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 import twitter4j.User;
+import twitter4j.UserList;
 import twitter4j.auth.AccessToken;
 import twitter4j.auth.RequestToken;
 import twitter4j.conf.ConfigurationBuilder;
 	
 public class TwitterBot {
-	private final static String CONSUMER_KEY = "fy0bYavlMHXfqdbmaIOBQNIhm";
+	private final static String CONSUMER_KEY = "MKYGJWiFNkfog14jm8ucpvLhM";
     private final static String CONSUMER_KEY_SECRET =
-     "p5ipEkEF0FRZGXrID2MmKmgHH8wQraP76JhHa3O4TdbUE1n1Y0";
-    private final static String AccessToken = "787938126404747264-dpHR0TOII0eiH4BVZ8yFWsKvIddIKx1";
-    private final static String AccessTokenSecret = "16t3g3zFuzrGFBypnBe4l73nHWIYGIFFMYUVJvzpDS5Wo";
+     "bew0obL3uAtQzqSIJHYUOqRjkJQrkfQjiYQQKwryO6Tre524I0";
+    private final static String AccessToken = "787938126404747264-ZghL5a1QTscrqKfV0g9renK5Vvu0UQ0";
+    private final static String AccessTokenSecret = "PcaFAyPZHw7gHHvXKVaB7PaBlc8MwBTUiu4JWWFhH0w5g";
     private static long storystatusID =0;
     private static Twitter twitter = new TwitterFactory().getInstance();
     
@@ -41,6 +42,9 @@ public class TwitterBot {
     	twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
     	AccessToken oathAccessToken = new AccessToken(AccessToken,AccessTokenSecret);
     	twitter.setOAuthAccessToken(oathAccessToken);
+
+    	
+    	
     }
     
     private static ConfigurationBuilder buildConfig()
@@ -69,6 +73,8 @@ public class TwitterBot {
     
     public static void main(String[] args) throws Exception {
     	new TwitterBot().start();
+    	//Testing userList
+	
     	ConfigurationBuilder cb = buildConfig();
     	TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
     	StatusListener listener = new StatusListener() {
@@ -79,8 +85,10 @@ public class TwitterBot {
         	 if(consent(status.getText()))
         	 {
         		try {
-        		List<User> users= twitter.getFriendsList(status.getUser().getId(), cursor);
-    			Random rand = new Random();
+        		List<User> users= twitter.getFriendsList(status.getUser().getId(), cursor); // pass this list and to strongest user and return the 2 strongest for characters
+    			//ask user if they are happy with character selection and @ the 2 characters
+        		//Then tell story if user responds postively
+        		Random rand = new Random();
     			int randomi =rand.nextInt(users.size()-1);    			
     			long replyTo=status.getId();  			
     			String a = "@"+users.get(randomi).getScreenName();
@@ -143,7 +151,8 @@ public class TwitterBot {
 		// TODO Auto-generated method stub		
 	}
  };
-
+	User user = twitter.showUser("SimonCowell");
+	System.out.println("Test: "+user.getName());	
  FilterQuery fq = new FilterQuery();
  String keywords[] = {"#EntertainMe", "#entertainme","#Entertainme", "entertainmeucd"};
 
