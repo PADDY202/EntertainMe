@@ -30,7 +30,15 @@ import twitter4j.conf.ConfigurationBuilder;
 import twitter4j.User;
 
 public class StrongestFollower {
-	private  List<User> friends;
+	
+	private final static String CONSUMER_KEY = "MKYGJWiFNkfog14jm8ucpvLhM";
+    private final static String CONSUMER_KEY_SECRET =
+     "bew0obL3uAtQzqSIJHYUOqRjkJQrkfQjiYQQKwryO6Tre524I0";
+    private final static String AccessToken = "787938126404747264-ZghL5a1QTscrqKfV0g9renK5Vvu0UQ0";
+    private final static String AccessTokenSecret = "PcaFAyPZHw7gHHvXKVaB7PaBlc8MwBTUiu4JWWFhH0w5g";
+    private static long storystatusID =0;
+	
+    private  List<User> friends;
 	private  User a =null;
 	private  User b = null;
     private  Twitter twitter = new TwitterFactory().getInstance();
@@ -39,6 +47,10 @@ public class StrongestFollower {
 	
 	public  StrongestFollower (List<User> infriends) throws TwitterException
 	{
+		twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
+    	AccessToken oathAccessToken = new AccessToken(AccessToken,AccessTokenSecret);
+    	twitter.setOAuthAccessToken(oathAccessToken);
+    	
 		friends = infriends;
 		String filename = "Scealextric/DATA/TSV/Mitchell's Top 100 Twiter Users";
 		String line = null;
@@ -69,12 +81,13 @@ public class StrongestFollower {
 	
 	
 	//both a & b will be null if they are not allocated
-	private void topAandB() throws TwitterException
+	public void topAandB() throws TwitterException
 	{
 			boolean aFound = false;
 			for(int i=0; i< topUsers.size(); i++)
 			{
 			String userIstr = topUsers.get(i);
+			//System.out.println("-"+userIstr+"-");
 			User userItwt = twitter.showUser(userIstr);
 				if (friends.contains(userItwt))
 				{
@@ -89,6 +102,8 @@ public class StrongestFollower {
 					}
 					
 				}
+			
+			
 			}		
 	}
 		
@@ -107,6 +122,11 @@ public class StrongestFollower {
 			b = getRandomTopUser();
 		}
 		return b;
+	}
+	public static void main(String[] args) throws TwitterException
+	{
+		List<User> l = null;
+		new StrongestFollower(l).topAandB();
 	}
 
 }

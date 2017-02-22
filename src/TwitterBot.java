@@ -77,10 +77,15 @@ public class TwitterBot {
 	
     	ConfigurationBuilder cb = buildConfig();
     	TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
+    	
     	StatusListener listener = new StatusListener() {
+    		
     		public void onStatus(Status status) {
     		System.out.println("@" + status.getUser().getScreenName() + " - " + status.getText());
+    		
+    		//Getting B
     		String p = "@"+status.getUser().getScreenName();
+    		
     		long cursor = -1;
         	 if(consent(status.getText()))
         	 {
@@ -88,14 +93,27 @@ public class TwitterBot {
         		List<User> users= twitter.getFriendsList(status.getUser().getId(), cursor); // pass this list and to strongest user and return the 2 strongest for characters
     			//ask user if they are happy with character selection and @ the 2 characters
         		//Then tell story if user responds postively
-        		Random rand = new Random();
+        
+        		//Getting A
+        	/**	Random rand = new Random();
     			int randomi =rand.nextInt(users.size()-1);    			
-    			long replyTo=status.getId();  			
     			String a = "@"+users.get(randomi).getScreenName();
+    			**/
+        		StrongestFollower storyChars = new StrongestFollower(users);
+        		User aUsr = storyChars.getA();
+        		User bUsr = storyChars.getB();
+        		
+        		String aStr = aUsr.getName();
+        		String bStr = bUsr.getName();
+        		
     			TripleManager tm = new TripleManager();
     			Story s =tm.MakeStoryLen(3);
-    			s.setAntagonist(a);
-    			s.setProtagonist(p);
+    			
+    			//Setting A & B
+    			s.setAntagonist(aStr);
+    			s.setProtagonist(bStr);
+    			
+    			long replyTo=status.getId();  			
     			Vector<String> stringStory  = s.getStory();
     			for (int i=0; i <stringStory.size()-1; i++)
     			{
