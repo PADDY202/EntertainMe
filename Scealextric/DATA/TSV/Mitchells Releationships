@@ -1,0 +1,27 @@
+Media	hire	Pop music	follow	USA		
+Pop music	are_hired_by	Media	learn_from	Pop music		
+Politics	appoint	Media				
+Pop	disappoint	Media	hire 	Rap		
+Tech	learn_from	Tech	disappoint	Politics		
+USA	are_worshipped_by	USA	inspire	USA	are_impressed_by	USA
+Games	learn_from	Games				
+Rap	are_hired_by	soccer	learn_from	Rap		
+UK soccer	are_hired_by	learn_from	soccer	disappoint	Media	
+UK	are_worshipped_by	UK				
+WWE	work_for	Vince McMahon				
+Fight	are_worshipped_by	Fight				
+eSport	are_dismissed_by	eSport	inspire	Games		
+Football	learn_from	Football	are_dismissed_by	UK		
+Basketball	learn_from	Basketball				
+Army	work_for	Politics	learn_from	Army		
+AUT	learn_from	AUT				
+Baseball	are_inspired_by	Baseball				
+Bible	work_for	Bible	learn_from	Bible		
+Hockey	learn_from	Hockey				
+Olympics	learn_from	Olympics				
+Rock	are_worshipped_by	Rap				
+Spain	are_worshipped_by	UK				
+Techno	learn_from	Techno	are_worshipped_by	Techno		
+Twitch	are_worshipped_by	Twitch				
+UFC		learn_from		UFC		
+UN	are_worshipped_by	Media				

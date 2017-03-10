@@ -3,6 +3,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
@@ -41,17 +42,22 @@ public class StrongestFollower {
     private  List<User> friends;
 	private  User a =null;
 	private  User b = null;
-    private  Twitter twitter = new TwitterFactory().getInstance();
+    private   Twitter twitter = new TwitterFactory().getInstance();
 	ArrayList<String> topUsers = new ArrayList<String>();
 	Random rand = new Random();
 	
-	public  StrongestFollower (List<User> infriends) throws TwitterException
+	public  StrongestFollower () throws TwitterException
 	{
+		
+		//List<User> infriends
 		twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
     	AccessToken oathAccessToken = new AccessToken(AccessToken,AccessTokenSecret);
     	twitter.setOAuthAccessToken(oathAccessToken);
+    	/**
+    	//User userItwt = twitter.showUser("ConanOBrien");
+		//infriends.add(userItwt);
     	
-		friends = infriends;
+		friends = infriends;**/
 		String filename = "Scealextric/DATA/TSV/Mitchell's Top 100 Twiter Users";
 		String line = null;
 		try {
@@ -61,6 +67,8 @@ public class StrongestFollower {
 			{
 				
 				topUsers.add(line);
+				System.out.println(twitter.searchUsers(line, 1).get(0).getScreenName());
+				
 			}
 		}
 		catch (IOException e)
@@ -94,6 +102,7 @@ public class StrongestFollower {
 					if(!aFound)
 					{
 						a = userItwt;
+						System.out.println("afound");
 						aFound=true;
 					}
 					else
@@ -111,7 +120,7 @@ public class StrongestFollower {
 	{
 		if(a==null)
 		{
-			a = getRandomTopUser();
+		//	a = getRandomTopUser();
 		}
 		return a;
 	}
@@ -119,14 +128,17 @@ public class StrongestFollower {
 	{
 		if(b==null)
 		{
-			b = getRandomTopUser();
+			//b = getRandomTopUser();
 		}
 		return b;
 	}
+	
+	
 	public static void main(String[] args) throws TwitterException
 	{
-		List<User> l = null;
-		new StrongestFollower(l).topAandB();
+		List<User> l = new LinkedList<User>();;
+
+		new StrongestFollower().topAandB();
 	}
 
 }
