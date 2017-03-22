@@ -14,7 +14,7 @@ import com.sun.javafx.collections.MappingChange.Map;
 public  class TripleManager {
 
 	private Hashtable<String, ArrayList<Triple>> triples = new Hashtable<String, ArrayList<Triple>>();
-	
+	private String assignedKey = "are_bored_by";
 	public  TripleManager ()
 	{
 		String filename = "Scealextric/DATA/TSV/Veale's script midpoints.txt";
@@ -177,6 +177,14 @@ public  class TripleManager {
 		ArrayList<Triple> values = triples.get(randomKey);	
 		return getRandomArrayElement(values);
 	}
+	public void setAssignedKey(String key)
+	{
+		assignedKey = key;
+	}
+	public Triple getAssignedTripple()
+	{
+		return getTriple(assignedKey);
+	}
 	private Triple getRandomArrayElement(ArrayList<Triple> ts)
 	{
 		Random random = new Random();
@@ -186,7 +194,7 @@ public  class TripleManager {
 	{
 		Story story = new Story(); 
 		String plug= "";
-		Triple cur =this.getRandomTriple();
+		Triple cur =this.getAssignedTripple();
 		story.addToStory(cur);
 		while (story.numberOfTriples()<len)
 		{

@@ -36,7 +36,7 @@ public class TwitterBot {
     private final static String AccessTokenSecret = "PcaFAyPZHw7gHHvXKVaB7PaBlc8MwBTUiu4JWWFhH0w5g";
     private static long storystatusID =0;
     private static Twitter twitter = new TwitterFactory().getInstance();
-	public String a = null,b = null;
+	public String a = null,b = null, key = "are_bored_by";
 
     
     public void start() throws TwitterException, IOException {
@@ -44,10 +44,8 @@ public class TwitterBot {
     	twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
     	AccessToken oathAccessToken = new AccessToken(AccessToken,AccessTokenSecret);
     	twitter.setOAuthAccessToken(oathAccessToken);
-    	new StrongestFollower();
-
-    	
-    	
+    //	new StrongestFollower();
+ 	
     }
     
     private static ConfigurationBuilder buildConfig()
@@ -76,14 +74,14 @@ public class TwitterBot {
     {
     	return twitter.searchUsers(searchName, 1).get(0).getScreenName();
     }
-//    private  Void print usernames 
 
     
     public static void main(String[] args) throws Exception {
+    	
     	final TwitterBot tb = new TwitterBot();
     	tb.start();
     	//Testing userList
-
+    	
     	ConfigurationBuilder cb = buildConfig();
     	TwitterStream twitterStream = new TwitterStreamFactory(cb.build()).getInstance();
 
@@ -99,12 +97,9 @@ public class TwitterBot {
     		//If Consent Granted
         	 if(consent(status.getText()))
         	 {
-        		try {
-
-        
-
-        		
+        		try { 
     			TripleManager tm = new TripleManager();
+    			tm.setAssignedKey(tb.key);
     			Story s =tm.MakeStoryLen(3);
     			
     			//Setting A & B
@@ -118,8 +113,7 @@ public class TwitterBot {
     			    StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " "+ stringStory.get(i));   			   
     			    TimeUnit.SECONDS.sleep(1);
     			    stat.setInReplyToStatusId(replyTo);
-    			    replyTo= twitter.updateStatus(stat).getId(); 
-    			      				
+    			    replyTo= twitter.updateStatus(stat).getId();  			      				
     			}
     			
     		} catch (TwitterException e) {
@@ -143,7 +137,7 @@ public class TwitterBot {
  				} catch (TwitterException e1) {
  					e1.printStackTrace();
  				} 
- 	    		StrongestFollower storyChars = null;
+ 	    		/**StrongestFollower storyChars = null;
  				User aTopUsr = null;
  				try {
  					aTopUsr = storyChars.getA();
@@ -158,15 +152,29 @@ public class TwitterBot {
  				} 		
  	    		//String aTopStr = aTopUsr.getName();
  	    		//String bTopStr = bTopUsr.getName();
- 	    		
+ 	    		**/
  	        	Random rand = new Random();
- 	    		int randomi =rand.nextInt(users.size()-1);    			
+ 	    		int randomi = Math.abs(rand.nextInt(users.size()-1));    			
  	    		String randA = users.get(randomi).getScreenName();
  	    		randomi =rand.nextInt(users.size()-1); 
  	    		String randB = users.get(randomi).getScreenName();
  	    		
  	    		
  	    		//deciding character
+ 	    			CatergoryManager cm;
+					try {
+						cm = new CatergoryManager(twitter.getFriendsList(status.getUser().getId(),cursor));
+		    			tb.a = cm.getA().getName();
+	 	    			tb.b = cm.getB().getName();
+	 	 			    tb.key = cm.getKey();
+	
+					} catch (TwitterException e1) {
+						// TODO Auto-generated catch block
+						e1.printStackTrace();
+					}	
+ 	    			
+
+					/**
  	    		if (aTopUsr==null)
  	    		{
  	    			tb.a = randA;
@@ -183,8 +191,9 @@ public class TwitterBot {
  	    		{
  	    			tb.b = bTopUsr.getName();
  	    		}
-        		ConsentManager cm = new ConsentManager();
-        		StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " " + cm.getRandomConsent()+tb.a+" and "+tb.b+"?");
+ 	    		**/
+        		ConsentManager conm = new ConsentManager();
+        		StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " " + conm.getRandomConsent()+tb.a+" and "+tb.b+"?");
  			    stat.inReplyToStatusId(status.getId());
  			    try {
 					twitter.updateStatus(stat);

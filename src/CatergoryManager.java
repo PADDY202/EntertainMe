@@ -27,17 +27,17 @@ public class CatergoryManager {
 	
     private  List<User> friends;
     private   Twitter twitter = new TwitterFactory().getInstance();
+    
 	ArrayList<String> categoryNames = new ArrayList<String>();
-	 Hashtable<String,Category> categories = new  Hashtable<String,Category>();
+	Hashtable<String,Category> categories = new  Hashtable<String,Category>();
 	ArrayList<String> characterHanles = new ArrayList<String>();
-
+	String targetUsersCategory ="";
 
 	Random rand = new Random();
 	
-	public  CatergoryManager () throws TwitterException
+	public  CatergoryManager (List<User> infriends) throws TwitterException
 	{	
-		
-		//List<User> infriends
+		friends = infriends;
 		twitter.setOAuthConsumer(CONSUMER_KEY, CONSUMER_KEY_SECRET);
     	AccessToken oathAccessToken = new AccessToken(AccessToken,AccessTokenSecret);
     	twitter.setOAuthAccessToken(oathAccessToken);
@@ -70,8 +70,7 @@ public class CatergoryManager {
 							
 					}
 				}
-				//System.out.println(twitter.searchUsers(line, 1).get(0).getScreenName());
-				//System.out.println(currentCat.pairs.get("are_worshipped_by"));
+
 			}
 			BufferedReader binput2 = new BufferedReader(new InputStreamReader(new FileInputStream(filename2), "UTF-8"));
 			while ( (line = binput2.readLine()) != null)  // Read a line at a time
@@ -80,6 +79,7 @@ public class CatergoryManager {
 				String name =lineT.nextToken();
 				lineT.nextToken();
 				String handle =lineT.nextToken();
+				Character character = new Character(name,handle);
 				while (lineT.hasMoreTokens())
 				{
 					String category = lineT.nextToken();
@@ -88,19 +88,12 @@ public class CatergoryManager {
 						//if(categories.contains(category))
 						//{
 							Category currentCat = categories.get(category);
-							currentCat.addCharacter(name);
-						//}
-						
-						
+							currentCat.addCharacter(character);
+						//}												
 					}
-				}
-
-				
+				}				
 			}
-			System.out.println(categories.get("Media").getCharacters());
-
-			
-			
+			targetUsersCategory = categoriseUser();
 		}
 		
 		catch (IOException e)
@@ -113,7 +106,45 @@ public class CatergoryManager {
 	
 	//Go through all the users in each category to if the user follows any of them if soo start a story
 	
+	private String categoriseUser()
+	{
+		TargetUser T = new TargetUser(categoryNames);
+		for (int i =0; i < friends.size(); i++)
+		{
+			User friendI = friends.get(i);
+			String handle = friendI.getScreenName();
+			for (int c=0; c<categoryNames.size(); c++)
+			{
+				Category currentCat = categories.get(categoryNames.get(c));
+				if(currentCat.contains(handle))
+				{
+					T.categoryScore(currentCat.getName());
+				}
+			}		
+		}
+		targetUsersCategory = T.getTop();
+		return targetUsersCategory;
+		
+		
+	}
+	public Character getA()
+	{
+		return (categories.get(targetUsersCategory)).getRandomCharacter();
+	}
+	public Character getB()
+	{
+		 return categories.get(categories.get(targetUsersCategory).getneighbour()).getRandomCharacter();
+	}
+	public String getKey()
+
+	{
+		Category targetCat = categories.get(targetUsersCategory);
+		String targetAction = targetCat.getAction();
+		return targetAction;
+	}
 	
+	//score by number of each category-> then pick characters from that category highest ranked category 
+	//pick random with the possibility of adding sentiment
 	
 	
 //	check for user matches()
@@ -123,7 +154,8 @@ public class CatergoryManager {
 //	find user's category
 	public static void main(String[] args) throws TwitterException
 	{
-		new CatergoryManager();
+	//	new CatergoryManager();
+		
 		
 	}
 	

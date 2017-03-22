@@ -67,7 +67,7 @@ public class StrongestFollower {
 			{
 				
 				topUsers.add(line);
-				System.out.println(twitter.searchUsers(line, 1).get(0).getScreenName());
+		//		System.out.println(twitter.searchUsers(line, 1).get(0).getScreenName());
 				
 			}
 		}
@@ -95,7 +95,6 @@ public class StrongestFollower {
 			for(int i=0; i< topUsers.size(); i++)
 			{
 			String userIstr = topUsers.get(i);
-			//System.out.println("-"+userIstr+"-");
 			User userItwt = twitter.showUser(userIstr);
 				if (friends.contains(userItwt))
 				{
