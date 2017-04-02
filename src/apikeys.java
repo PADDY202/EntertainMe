@@ -9,8 +9,8 @@ import twitter4j.auth.AccessToken;
 import twitter4j.auth.RequestToken;
 
 public class apikeys {
-    private final static String CONSUMER_KEY = "MKYGJWiFNkfog14jm8ucpvLhM";
-    private final static String CONSUMER_KEY_SECRET = "bew0obL3uAtQzqSIJHYUOqRjkJQrkfQjiYQQKwryO6Tre524I0";
+    private final static String CONSUMER_KEY = "9hfM3IxAuwWumvTtpXK2wEH0F";
+    private final static String CONSUMER_KEY_SECRET = "p023eESq2mez2rQCmYBN9FXQrXeMIrwvrU2yD5YbOycOl2uSZ9";
 
     public void start() throws TwitterException, IOException {
 

@@ -15,6 +15,7 @@ public  class TripleManager {
 
 	private Hashtable<String, ArrayList<Triple>> triples = new Hashtable<String, ArrayList<Triple>>();
 	private String assignedKey = "are_bored_by";
+	private Boolean isAssigned = false;
 	public  TripleManager ()
 	{
 		String filename = "Scealextric/DATA/TSV/Veale's script midpoints.txt";
@@ -179,6 +180,7 @@ public  class TripleManager {
 	}
 	public void setAssignedKey(String key)
 	{
+		isAssigned = true;
 		assignedKey = key;
 	}
 	public Triple getAssignedTripple()

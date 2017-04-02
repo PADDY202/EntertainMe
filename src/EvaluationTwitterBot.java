@@ -1,17 +1,10 @@
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.Vector;
 import java.util.concurrent.TimeUnit;
 
 import twitter4j.FilterQuery;
-import twitter4j.GeoLocation;
-import twitter4j.Query;
-import twitter4j.QueryResult;
-import twitter4j.ResponseList;
 import twitter4j.StallWarning;
 import twitter4j.Status;
 import twitter4j.StatusDeletionNotice;
@@ -23,17 +16,15 @@ import twitter4j.TwitterFactory;
 import twitter4j.TwitterStream;
 import twitter4j.TwitterStreamFactory;
 import twitter4j.User;
-import twitter4j.UserList;
 import twitter4j.auth.AccessToken;
-import twitter4j.auth.RequestToken;
 import twitter4j.conf.ConfigurationBuilder;
-	
-public class TwitterBot {
-	private final static String CONSUMER_KEY = "hmDCdp0SdEztPcGjPN7gvEavP";
+
+public class EvaluationTwitterBot {
+	private final static String CONSUMER_KEY = "9hfM3IxAuwWumvTtpXK2wEH0F";
     private final static String CONSUMER_KEY_SECRET =
-     "WmDPkOUayF4aKV2AoNXY4P1r8B01wIxystGGmsSgjMoZWmf52j";
-    private final static String AccessToken = "787938126404747264-rVPRQIFTGZugS7XUDxyc5aRo5CfxcbY";
-    private final static String AccessTokenSecret = "m3sEinuob0mSiSbeeCWAgQFpdnCE3S0wKrPsM50X1aToP";
+     "p023eESq2mez2rQCmYBN9FXQrXeMIrwvrU2yD5YbOycOl2uSZ9";
+    private final static String AccessToken = "847848650927722496-lMOg2SEUIBg0aNXettSRWXclL115lwb";
+    private final static String AccessTokenSecret = "4OhnS8nwA1DZDxA3s0n9fucqNj9P1UzDHjyfvSIL3tqTc";
     private static long storystatusID =0;
     private static Twitter twitter = new TwitterFactory().getInstance();
 	public String a = null,b = null, key = "are_bored_by";
@@ -78,7 +69,7 @@ public class TwitterBot {
     
     public static void main(String[] args) throws Exception {
     	
-    	final TwitterBot tb = new TwitterBot();
+    	final EvaluationTwitterBot tb = new EvaluationTwitterBot();
     	tb.start();
     	//Testing userList
     	
@@ -161,7 +152,7 @@ public class TwitterBot {
  	    		
  	    		
  	    		//deciding character
- 	    			CatergoryManager cm;
+ 	    		/**	CatergoryManager cm;
 					try {
 						cm = new CatergoryManager(twitter.getFriendsList(status.getUser().getId(),cursor));
 		    			tb.a = cm.getA().getName();
@@ -172,26 +163,14 @@ public class TwitterBot {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}	
- 	    			
+**/ 	    			
 
-					/**
- 	    		if (aTopUsr==null)
- 	    		{
- 	    			tb.a = randA;
- 	    		}
- 	    		else
- 	    		{
- 	    			tb.a = aTopUsr.getName();
- 	    		}
- 	    		if (bTopUsr==null)
- 	    		{
- 	    			tb.b = randB;
- 	    		}
- 	    		else
- 	    		{
- 	    			tb.b = bTopUsr.getName();
- 	    		}
- 	    		**/
+			
+ 	    		tb.a = "Dom";
+ 	    		tb.b = "Tom";
+ 	    	
+
+ 	    		
         		ConsentManager conm = new ConsentManager();
         		StatusUpdate stat= new StatusUpdate("@" + status.getUser().getScreenName() + " " + conm.getRandomConsent()+tb.a+" and "+tb.b+"?");
  			    stat.inReplyToStatusId(status.getId());
@@ -230,7 +209,7 @@ public class TwitterBot {
 	User user = twitter.showUser("SimonCowell");
 	System.out.println("Test: "+user.getName());	
  FilterQuery fq = new FilterQuery();
- String keywords[] = {"#EntertainMeTom", "#entertainmetom","#Entertainmetom", "FictionalBot","#EntertainmeTom"};
+ String keywords[] = {"#EntertainmeDom", "#entertainmedom","#Entertainmedom", "BotOfFiction","#EntertainmeDom"};
 
  fq.track(keywords);
 

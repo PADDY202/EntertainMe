@@ -39,8 +39,8 @@ public class TargetUser {
 	}
 	public String getTop()
 	{
-		System.out.println(topScore);
-		System.out.println(topCat);
+//		System.out.println(topScore);
+//		System.out.println(topCat);
 		return topCat;
 	}
 
