@@ -29,11 +29,11 @@ import twitter4j.auth.RequestToken;
 import twitter4j.conf.ConfigurationBuilder;
 	
 public class TwitterBot {
-	private final static String CONSUMER_KEY = "hmDCdp0SdEztPcGjPN7gvEavP";
+	private final static String CONSUMER_KEY = "uw7cmQfLhCMcFr4yLJLUJ2fFn";
     private final static String CONSUMER_KEY_SECRET =
-     "WmDPkOUayF4aKV2AoNXY4P1r8B01wIxystGGmsSgjMoZWmf52j";
-    private final static String AccessToken = "787938126404747264-rVPRQIFTGZugS7XUDxyc5aRo5CfxcbY";
-    private final static String AccessTokenSecret = "m3sEinuob0mSiSbeeCWAgQFpdnCE3S0wKrPsM50X1aToP";
+     "IG1Bxofq7G7LBiD3wSPTZFOrTH6spkffHxPZgXYbZ6dfPU9obx";
+    private final static String AccessToken = "787938126404747264-nGY7kn363TG6sFvyBLWlJLx9sTCAVCZ";
+    private final static String AccessTokenSecret = "EgjYQiyJ3mU6FslZ4BPpB2wW6WVD68CLhFLf7Eo4lt3nR";
     private static long storystatusID =0;
     private static Twitter twitter = new TwitterFactory().getInstance();
 	public String a = null,b = null, key = "are_bored_by";
