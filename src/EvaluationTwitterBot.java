@@ -20,11 +20,11 @@ import twitter4j.auth.AccessToken;
 import twitter4j.conf.ConfigurationBuilder;
 
 public class EvaluationTwitterBot {
-	private final static String CONSUMER_KEY = "kte0nmX4bEX0qZyO5Ywifrviz";
+	private final static String CONSUMER_KEY = "ECPmvQEXqBZK1C6XJZepln4I0";
     private final static String CONSUMER_KEY_SECRET =
-     "LMNJKL43prHUYGgAK2rCflvQwFtMaV8z1t5s2O8Xynd6LlaftA";
-    private final static String AccessToken = "847848650927722496-sIffHJlHjaqZJOLS1TEIGAud7HH8YUI";
-    private final static String AccessTokenSecret = "NHun5tud5i4f34mYDNrEm7SnOMRKRi8JUqGa3HcKtMpA7";
+     "3eFnMWmF1duQccKEbiqb2MgBpq97Ooy74b2lOqKvyyi7yiFWKA";
+    private final static String AccessToken = "849338807564591104-SnBD0vMPO01SSSVVn67bs8N642l3GEC";
+    private final static String AccessTokenSecret = "rl6fdVo60p01D2XO57FDuzKgcJRIm3Y98n7PRSAyWyw7M";
     private static long storystatusID =0;
     private static Twitter twitter = new TwitterFactory().getInstance();
 	public String a = null,b = null, key = "are_bored_by";
@@ -209,7 +209,7 @@ public class EvaluationTwitterBot {
 	User user = twitter.showUser("SimonCowell");
 	System.out.println("Test: "+user.getName());	
  FilterQuery fq = new FilterQuery();
- String keywords[] = {"#EntertainmeDom", "#entertainmedom","#Entertainmedom", "BotOfFiction","#EntertainmeDom"};
+ String keywords[] = {"#EntertainmeDom", "#entertainmedom","#Entertainmedom", "fictionalstoryg","#EntertainmeDom"};
 
  fq.track(keywords);
 
